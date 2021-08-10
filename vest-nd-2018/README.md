@@ -4,7 +4,7 @@ Our final election results validation report for this dataset is available [here
 
 We do not have the raw data sources available on this Github due to file constraints, but we are happy to share them if needed. 
 
-Please reach out to info@redistrictingdatahub.org to reach our support team if you have any questions, or if you would like to request a full validation report. 
+Please reach out to info@redistrictingdatahub.org to reach our support team if you have any questions, or if you would like to request a full validation report.
 
 ## Raw from source
 
