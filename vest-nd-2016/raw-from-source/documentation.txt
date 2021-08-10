@@ -1,0 +1,1939 @@
+2016 Election Results by Precinct
+
+Vote Column Label Format
+------------------------
+Columns reporting votes follow a standard label pattern. One example is:
+G16PREDCli
+The first character is G for a general election, P for a primary, C for a caucus, R for a runoff, S for a special.
+Characters 2 and 3 are the year of the election.
+Characters 4-6 represent the office type (see list below).
+Character 7 represents the party of the candidate.
+Characters 8-10 are the first three letters of the candidate's last name.
+
+Office Codes
+AGR - Commissioner of Agriculture
+ATG - Attorney General
+AUD - Auditor
+COM - Comptroller
+COU - City Council Member
+DEL - Delegate to the U.S. House
+GOV - Governor
+H## - U.S. House, where ## is the district number. AL: at large.
+HOD - House of Delegates, accompanied by a HOD_DIST column indicating district number
+HOR - U.S. House, accompanied by a HOR_DIST column indicating district number
+INS - Commissioner of Insurance
+LAB - Commissioner of Labor
+LTG - Lieutenant Governor
+LND - Commissioner of Public Lands
+PRE - President
+PSC - Public Service Commissioner
+PUC - Public Utilities Commissioner
+RGT - State University Regent
+RRC - Railroad Commissioner
+SAC - State Court of Appeals
+SOS - Secretary of State
+SOV - Senate of Virginia, accompanied by a SOV_DIST column indicating district number
+SPI - Superintendent of Public Instruction
+SSC - State Supreme Court
+TRE - Treasurer
+USS - U.S. Senate
+
+Party Codes
+D and R will always represent Democrat and Republican, respectively.
+See the state-specific notes for the remaining codes used in a particular file; note that third-party candidates may appear on the ballot under different party labels in different states.
+
+
+Alabama
+-------
+Election results from the Alabama Secretary of State Elections Division (https://www.sos.alabama.gov/alabama-votes/voter/election-data). 
+
+Incorrect or incomplete data was replaced using the county canvass reports for the following counties: Blount, Bullock, Dallas, Escambia, Greene, Hale, Jackson, Jefferson, Lamar, Lawrence, Marion, Pickens, Randolph, Russell, St. Clair, Shelby, Washington, Wilcox.
+
+Absentee and provisional ballots were reported countywide in all counties. These were distributed by candidate to precincts based on their share of the precinct-level reported vote. Mobile County also reported only countywide totals for write in votes. These were distributed to precincts based on the difference between the number of ballots cast and the total votes reported for named candidates.
+
+Note that the precinct results from DeKalb County add up to a higher total number of votes than the countywide totals certified by the state canvass. At the presidential level the difference is: Clinton (D) 60, Trump (R) 374, Johnson (L) 11, Stein (G) 4, Write In 3.
+
+Precinct shapefiles primarily from the U.S. Census Bureau's 2020 Redistricting Data Program final release, except the following counties use shapefiles sourced from the respective county governments instead: Baldwin, Blount, Calhoun, Cullman, DeKalb, Franklin, Jefferson, Lee, Limestone, Madison, Marengo, Marshall, Mobile, Morgan, St. Clair, Shelby, Talladega, Tuscaloosa.
+
+Precinct boundaries were adjusted as appropriate to align with county maps, municipal boundaries, or commission districts. Precinct boundaries throughout the state were further reviewed with the voter registration file in effect for the November 2016 general election. Voting districts in nearly all counties were edited accordingly to align with reporting units in the 2016 election results. In many counties the resulting boundaries bear little resemblance to the 2020 Census VTDs. As these boundary revisions were so extensive only splits and merges are specified below by precinct.
+
+Many precincts have outdated names in the Census VTDs. The Census VTDs also have at least some precinct names in wrong locations for the following counties: Clarke, Clay, Cleburne, Conecuh, Dallas, Escambia, Geneva, Greene, Jefferson, Lauderdale, Limestone, Marion, Marshall, Monroe, Perry, Randolph, Russell, Tallapoosa, Walker, Washington, Wilcox. Moreover, many precinct numbers and consequently the VTD GeoIDs are also incorrect throughout much of the state in the Census shapefiles. All precinct names and numbers have been edited to match the 2016 voter file.
+
+The following splits and merges were made to align voting district boundaries with reporting units in the 2016 election results.
+
+Autauga: Merge Boone's Chapel/County Line
+Barbour: Split Eufaula between Bevill/CC/Fellowship/McCoo/Sanford/WB
+Calhoun: Add precinct splits to Beats 1, 4, 5, 9, 12, 13, 15, 19, 22
+Cherokee: Split Friendship/Mt Calvary, McCord's/Rock Run, Mt Weisner/VFD #2
+Choctaw: Split Cromwell/Halsell/Intersection
+Clarke: Split Antioch/Grove Hill/Helwestern, Choctaw Bluff/Gainstown, Grove Hill NG/Whatley, Jackson/Skipper, Springfield/Thomasville; Merge Fulton FS/CH
+Covington: Split Heath/Straughn, Pleasant Home/Wing
+Cullman: Split Cullman City Hall/Civic Ctr/Conf Room/Courthouse
+Dallas: Merge Marion Jct/New Friendship
+Elmore: Merge Grandview Pines/Nazarene
+Fayette: Split Browns Glen Allen/Whites Chapel, Cole Killingsworth/New River, Elm Grove/Studdards, Fayette CC/Covin/YC, Lee-Belk/Oak Ridge
+Geneva: Split Bellwood/Chancellor, Flat Creek/Hacoda, Geneva CC/CH/CO/FC/NG, Hughes VH/Malvern, Lowery/Revels, Piney Grove/Samson/Samson Masonic, Slocomb/Tate
+Houston: Split Enterprise/Lovetown; Merge Mt Gilead/Water & Electric
+Jackson: Split Holly Springs/Pleasant Groves
+Jefferson: Split 1350/1400 CJ Donald/Fairfield; Merge 2350/5270 as Oxmoor Valley, 3010/3015 as Hunter St
+Lee: Split Boykin/National Guard
+Marengo: Split Aimwell/Sweet Water, Taylorville/Thomaston
+Marion: Split Kimbrough N/S; Merge Hamilton N/S as ET Sims
+Marshall: Split Arab Comm Ctr/Rec Ctr, Guntersville/Warrenton
+Monroe: Split Chrysler/Mineola, Coleman/Excel, Franklin/Wainwright, Peterman/Philadelphia
+Randolph: Split Bethel/Moores/Woodland, Cavers/Swagg, Corinth/Morrison, Midway/New Hope/Wedowee, Omaha/Tin Shop/Wehadkee, Rock Mills/Wilson
+Russell: Split Courthouse/Golden Acres
+Tallapoosa: Split Cooper/Duncan/Moncrief; Merge New Paces 901/902 to match county shapefile
+Wilcox: Split National Guard Camden, Pine Apple Comm Ctr, Pine Apple AWIN, St Paul Church
+Winston: Split Addison/Upshaw, Delmar/Natural Bridge, Haleyville/Neighborhood/Pebble/Waldrop, Lynn/Old Union, Nesmith/Helicon
+
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREOWRI - Write-in Votes
+
+G16USSRSHE - Richard Shelby (Republican Party)
+G16USSDCRU - Ron Crumpton (Democratic Party)
+G16USSOWRI - Write-in Votes
+
+G16SSCRBOL - Michael Bolin (Republican Party)
+G16SSCOWRI - Write-in Votes
+
+G16SSCRWIS - Kelli Wise (Republican Party)
+G16SSCOWR2 - Write-in Votes
+
+G16SSCRPAR - Tom Parker (Republican Party)
+G16SSCOWR3 - Write-in Votes
+
+G16PSCRCAV - Twinkle Andress Cavanaugh (Republican Party)
+G16PSCOWRI - Write-in Votes
+
+
+Alaska
+------
+Election results from Alaska Division of Elections (http://www.elections.alaska.gov/results/16GENR/index.shtml)
+Precinct shapefile from Alaska Division of Elections (http://www.elections.alaska.gov/Core/districtmaps.php)
+
+Early, Absentee, and Questioned votes are only reported at the State House district level (since Alaska has portions of the state with no lower level of government, HDs serve a similar purpose as counties do in other states for the purpose of reporting votes). These votes are apportioned to precincts by candidate in the same shares that the Election Day vote was split among precincts within an HD.
+
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PRECCAS - Darrell L. Castle (Constitution Party)
+G16PREIFUE - Roque De La Fuente (Independent)
+G16PREOWRI - Write-in Votes
+
+G16USSRMUR - Lisa Murkowski (Republican Party)
+G16USSDMET - Ray Metcalfe (Democratic Party)
+G16USSLMIL - Joe Miller (Libertarian Party)
+G16USSICRA - Breck A. Craig (Independent)
+G16USSIGIA - Ted Gianoutsos (Independent)
+G16USSISTO - Margaret Stock (Independent)
+G16USSOWRI - Write-in Votes
+
+G16HALRYOU - Don Young (Republican Party)
+G16HALDLIN - Steve Lindbeck (Democratic Party)
+G16HALLMCD - Jim C. McDermott (Libertarian Party)
+G16HALISOU - Bernie Souphanavong (Independent)
+G16HALOWRI - Write-in Votes
+
+Arizona
+-------
+Election results from Arizona Secretary of State (https://apps.azsos.gov/election/2016/Info/ElectionInformation.htm)
+Precinct shapefile from Arizona Secretary of State via personal communication except Greenlee County is sourced from the county shapefile instead.
+
+The following modifications were made to match the precinct boundaries for the 2016 general election.
+
+Apache: Merge Puerco East/West
+La Paz: Merge Alamo into Wenden
+
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREOWRI - Write-in Votes
+
+G16USSRMCC - John McCain (Republican Party)
+G16USSDKIR - Ann Kirkpatrick (Democratic Party)
+G16USSGSWI - Gary Swing (Green Party)
+G16USSOWRI - Write-in Votes
+
+
+Arkansas
+--------
+Election results from Arkansas Secretary of State (https://www.sos.arkansas.gov/elections/research/election-results)
+
+Precinct shapefile primarily from Jennifer Wheeler at the Arkansas GIS Office who provided an unreleased interim version of the statewide precinct shapefile with updated or corrected boundaries. Where noted below, the 2016 shapefile release from the Arkansas GIS Office was used to reverse changes not yet enacted for the 2016 election.
+
+Countywide votes were distributed for Calhoun, Fulton, Izard, Jefferson, Ouachita, Union. These were distributed by candidate to precincts based on their share of the precinct-level reported vote.
+
+Precinct mergers were made in the following counties to match county reporting units: Ashley, Carroll, Chicot, Clark, Crittenden, Dallas, Faulkner, Hot Spring, Howard, Independence, Jackson, Mississippi, Monroe, Nevada, Ouachita, Phillips, Poinsett, St. Francis.
+
+Additional modifications to reflect how election results were reported:
+
+Benton: Precincts reduced from 117 to 94 based on 2016 county PDF; Precinct 61 and Precinct 72 boundaries from 2016 shapefile; Align Siloam Springs and Gravette precincts with 2016 municipal boundaries
+Boone: Precinct splits based on municipal boundaries and legislative boundaries consistent with county map
+Craighead: Align Lake City with 2016 municipal boundary
+Crawford: Van Buren ward numbers from 2010 VTDs
+Cross: Twist Precinct added from 2016 shapefile
+Franklin: Ozark 1-C merged with Ozark 1-B to match 2016 election reporting and voter registration; Ozark Rural 1-C boundaries from 2012/2014 Secretary of State shapefile
+Fulton: Split Afton/Mammoth Spring precincts based on 2016 shapefile
+Howard: Mineral Springs ward boundaries from 2016 shapefile
+Izard: Sage in Melbourne 4 and Oxford in Brockwell split by township shapefile
+Jackson: Newport JP 2, Newport JP 7, Tuckerman 2 from Justice of the Peace shapefile; R&I 7 omitted as it was not in use for 2016 general election
+Jefferson: Precincts 6, 35, 38, 39, 42, 43, 44, 46, 52, 63, 129, 402, 411 from 2016 shapefile; Reverse Redfield annexation for Precincts 87, 94, 810
+Madison: County precincts outside Huntsville from 2016 shapefile
+Newton: Plumlee omitted although it appears on election results with 0 votes reported; Plumlee had already merged with Ponca
+Phillips: Helena-West Helena wards added from city redistricting map
+Sebastian: Reverse Fort Smith annexation for Precincts 4-H, 9-6A
+Sharp: Washington 1 and Washington 2 had no defined boundary; voters in Washington Township were given the option of 2 poll locations
+St. Francis: Forrest City wards revised to match city PDF and legal description in municipal code
+Stone: Ben 1 & Ben 2 split according to Secretary of State map; due to early vote reporting errors Fifty Six Precinct merged into Northwest Precinct and Foothills 1/Foothills 2 merged together
+Washington: Reversed Greenland City and West Fork City annexations based on 2016 shapefile
+Yell: Dardanelle Ward 3 JP 10 split based on Justice of the Peace shapefile
+
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREOMCM - Evan McMullin (Better for America Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREIHED - Jim Hedges (Independent)
+G16PRECCAS - Darrell L. Castle (Constitution Party)
+G16PREIKAH - Lynn S. Kahn (Independent)
+
+G16USSRBOO - John Boozman (Republican Party)
+G16USSDELD - Conner Eldridge (Democratic Party)
+G16USSLGIL - Frank Gilbert (Libertarian Party)
+G16USSOWRI - Write-in Votes
+
+
+California
+----------
+Election results and precinct shapefile from Statewide Database at UC Berkeley Law (http://statewidedatabase.org/d10/g16.html)
+
+G16PREDCli - Hillary Clinton (Democratic Party)
+G16PREGSte - Jill Stein (Green Party)
+G16PRELJoh - Gary Johnson (Libertarian Party)
+G16PREPLaR - Gloria La Riva (Peace and Freedom Party)
+G16PRERTru - Donald J. Trump (Republican Party)
+
+
+Colorado
+--------
+Election results from the Colorado Secretary of State (https://www.sos.state.co.us/pubs/elections/Results/Archives.html)
+Precinct shapefiles primarily from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release. The following counties used shapefiles sourced from the respective county governments instead: Adams, Arapahoe, Boulder, Chaffee, Delta, Denver, Douglas, El Paso, Fremont, Garfield, Gilpin, Jefferson, La Plata, Larimer, Mesa, Pitkin, Pueblo, Summit, Weld.
+
+Las Animas County precinct assignments in the voter file differ markedly from both the Census VTD boundaries and from maps received from the county. All precincts were revised to match the geocoded voter file and the list of districts assigned to precinct splits. As appropriate, precinct boundaries were revised using Census blocks, the Trinidad municipal boundary shapefile, school district or fire district boundaries, and the parcel shapefile from the Las Animas County Assessor.
+
+The following additional revisions were made to match the 2016 precinct boundaries:
+
+Lake: Revise Precincts 1/4, 2/3 to reverse 2017 redraw
+Logan: Align Sterling City precincts with city limits
+Montezuma: Precincts renumbered to match county maps
+Otero: Align La Junta City precincts with county maps
+Prowers: All precincts adjusted to match county maps
+Rio Grande: Adjust Precincts 2/3 to match county maps
+
+Larimer County reported provisional votes countywide. These were distributed to precincts by candidate based on their share of the vote reported by precinct.
+
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREUMCM - Evan McMullin (Unaffiliated)
+G16PREOOTH - Other Candidates
+
+G16USSDBEN - Michael Bennet (Democratic Party)
+G16USSRGLE - Darryl Glenn (Republican Party)
+G16USSLTAN - Lily Tang Williams (Libertarian Party)
+G16USSGMEN - Arn Menconi (Green Party)
+G16USSOOTH - Other Candidates
+
+G16RGTDMAD - Alice Madden (Democratic Party)
+G16RGTRGAN - Heidi Ganahl (Republican Party)
+
+
+Delaware
+--------
+Election results from Delaware Department of Elections (https://elections.delaware.gov/archive/elect16/elect16_general/html/index.shtml)
+Precinct shapefile from State of Delaware FirstMap GIS (http://opendata.firstmap.delaware.gov/datasets/delaware-election-boundaries)
+
+Precincts 17-02, 16-31, and 16-41 are the reporting units for UOCAVA votes from New Castle, Kent, and Sussex Counties, respectively. These were distributed by candidate to precincts based on their share of the precinct-level reported vote.
+
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+
+G16HALDROC - Lisa Blunt Rochester (Democratic Party)
+G16HALRREI - Hans Reigle (Republican Party)
+G16HALGPER - Mark J. Perri (Green Party)
+G16HALLGES - Scott A. Gesty (Libertarian Party)
+
+G16GOVDCAR - John Carney (Democratic Party)
+G16GOVRBON - Colin Bonini (Republican Party)
+G16GOVGGRO - Andrew Groff (Green Party)
+G16GOVLGOW - Sean Louis Goward (Libertarian Party)
+
+G16LTGDHAL - Bethany Hall-Long (Democratic Party)
+G16LTGRGUN - La Mar Gunn (Republican Party)
+
+G16INSDNAV - Trinidad Navarro (Democratic Party)
+G16INSRCRA - Jeffrey E. Cragg (Republican Party)
+
+
+District of Columbia
+--------------------
+Election results from District of Columbia Board of Elections (https://electionresults.dcboe.org/election_results/2016-General-Election)
+Precinct shapefile form Open Data DC (https://opendata.dc.gov/datasets/voting-precinct-2012)
+
+Precincts 83 and 144 were merged in the shapefile to reverse a 2019 split.
+
+The at-large U.S. House election is for a shadow member.
+
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREOWRI - Write-in Votes
+
+G16DELDNOR - Eleanor Holmes Norton (Democratic Party)
+G16DELLMOU - Martin Moulton (Libertarian Party)
+G16DELGSTR - Natale (Lino) Stracuzzi (D.C. Statehood Green Party)
+G16DELOWRI - Write-in Votes
+
+G16COUDWHI - Robert White (Democratic Party)
+G16COURCEL - Carolina Celnik (Republican Party)
+G16COULKLO - Matthew Klokel (Libertarian Party)
+G16COUGAIK - G. Lee Aikin (D.C. Statehood Green Party)
+G16COUIGRO - David Grosso (Independent)
+G16COUICHE - John C. Cheeks (Independent)
+G16COUOWRI - Write-in Votes
+
+G16HALDGAR - Franklin Garcia (Democratic Party)
+G16HALOWRI - Write-in Votes
+
+
+Florida
+-------
+Election results from Florida Division of Elections (http://dos.myflorida.com/elections/data-statistics/elections-data/precinct-level-election-results/)
+
+Precinct shapefile from many sources.
+
+The starting point was the Orlando Sentinel's precinct map for the 2016 presidential primary (http://interactive.orlandosentinel.com/elections/2016/presidential-primary/results/dem.html).
+
+Hillsborough, Lake, Miami-Dade, Orange, Palm Beach, and Pinellas Counties were updated directly with shapefiles downloaded from county Supervisor of Elections websites.
+
+Brevard, Marion, and Putnam Counties were updated with KML files from the respective county Supervisor of Elections websites, from their election result map pages.
+
+Columbia, DeSoto, Leon, Polk, and Osceola Counties updates received from Supervisor of Elections websites through personal contact.
+
+Highlands, Santa Rosa, Sarasota, and Volusia Counties had some precinct mergers, which were determined based on visual inspection of PDF precinct maps from the county websites.
+
+Charlotte, Hendry, Holmes, Jackson, Jefferson, Levy, Madison, and Walton Counties are from VTDs released by the Census Bureau's Redistricting Data Program.
+
+Hernando 99, Collier 450, and Palm Beach 8001/8002 are UOCAVA precincts with no real geography and votes were not redistributed.
+
+Precinct names were adjusted to align with the formatting used in the voter registration file (e.g., some precincts have leading spaces).
+
+
+G16PRERTru - Donald J. Trump (Republican Party)
+G16PREDCli - Hillary Clinton (Democratic Party)
+G16PRELJoh - Gary Johnson (Libertarian Party)
+G16PRECCas - Darrell L. Castle (Constitution Party)
+G16PREGSte - Jill Stein (Green Party)
+G16PREIDeL - Roque De La Fuente (Reform Party)
+G16PREOth - Write-in Votes
+
+G16USSRRub - Marco Rubio (Republican Party)
+G16USSDMur - Patrick Murphy (Democratic Party)
+G16USSLSta - Paul Stanton (Libertarian Party)
+G16USSOth - Independent and Write-in Votes
+
+
+Georgia
+-------
+Election results from the Georgia Secretary of State Elections Division(https://sos.ga.gov/index.php/Elections/current_and_past_elections_results)
+Precinct shapefile primarily from the Georgia General Assembly Reapportionment Office (http://www.legis.ga.gov/Joint/reapportionment/en-US/default.aspx)
+
+Fulton County uses shapefiles and maps sourced from the county GIS program. Precincts CH01/CH04B, CP07A/CP07D, SS29A/SS29B, UC031/UC035 were merged to match how voters were registered in the 2016 voter file.
+
+The following precincts were split by congressional district to match the 2016 election results: Avondale High, Glennwood, Wadsworth in Dekalb County; Cates D in Gwinnett County.
+
+Cloudland and Teloga precincts in Chattooga County were split along the ridgeline that marks the boundary between them with the USGS Topographic Contour shapefile.
+
+Three of the four VTDs in Chattahoochee County are comprised of Fort Benning. However, the county only has one polling location for all voters, including residents of Fort Benning that vote within the county. The four Chattahoochee County VTDs have therefore been merged in the shapefile.
+
+In Wilkes County the boundary between Precinct 1 and Precinct 2A was aligned with the voter file.
+
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+
+G16USSRISA - Johnny Isakson (Republican Party)
+G16USSDBAR - Jim Barksdale (Democratic Party)
+G16USSLBUC - Allen Buckley (Libertarian Party)
+
+G16PSCRECH - Tim Echols (Republican Party)
+G16PSCLHOS - Eric Hoskins (Libertarian Party)
+
+
+Hawaii
+------
+Election results from Hawaii Office of Elections (https://elections.hawaii.gov/election-results/)
+Precinct shapefile from Hawaii Statewide GIS Program (http://geoportal.hawaii.gov/datasets/cchnl::voter-precincts)
+
+G16PREDCli - Hillary Clinton (Democratic Party)
+G16PRERTru - Donald J. Trump (Republican Party)
+G16PREGSte - Jill Stein (Green Party)
+G16PRELJoh - Gary Johnson (Libertarian Party)
+G16PRECCas - Darrell L. Castle (Constitution Party)
+
+G16USSDSch - Brian Schatz (Democratic Party)
+G16USSRCar - John Carroll (Republican Party)
+G16USSAGiu - John Giuffre (American Shopping Party)
+G16USSLKok - Michael Kokowski (Libertarian Party)
+G16USSCAll - Joy Allison (Constitution Party)
+
+
+Idaho
+-----
+Election results from Idaho Secretary of State (https://sos.idaho.gov/elections-division/election-results/). Absentee votes were reported countywide or by legislative district for Adams, Bannock, Bingham, Blaine, Boise, Bonneville, Clearwater, Custer, Elmore, Fremont, Gem, Gooding, Idaho, Jefferson, Jerome, Kootenai, Latah, Lemhi, Madison, Minidoka, Nez Perce, Owyhee, Shoshone, Teton, Twin Falls, Valley. These were distributed by candidate to precincts based on their share of the precinct-level vote for the given reporting unit.
+
+Precinct shapefiles from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release, except the following counties used shapefiles sourced from the respective county governments instead: Ada, Adams, Bannock, Bingham, Boise, Bonner, Cassia, Clearwater, Custer, Fremont, Jefferson, Kootenai, Latah, Lemhi, Lewis, Madison, Minidoka, Nez Perce, Oneida, Power, Twin Falls, Valley.
+
+County borders in all county-sourced shapefiles were aligned to the U.S Census Bureau's boundaries. The following additional modifications were made to match the 2016 precinct boundaries:
+
+Bannock: Adjust Pocatello precincts to match 2016 county maps
+Bear Lake: Adjust most precincts to match county maps and voter file
+Benewah: Boundaries revised countywide to match legal description
+Bonner: Extend precincts over water and align with legal description
+Boundary: Merge BF/Kootenai
+Butte: Split Arco 1/Moore along USGS watershed line; Adjust Arco 1/2
+Camas: Precinct numbers reversed based on county map
+Cassia: Merge Burley 1/7
+Clark: Adjust Precinct 1/2, 1/3
+Elmore: Adjust Mountain Home 4/Hammett
+Gem: Adjust Lincoln/Emerson, Hanna/West Emmett
+Gooding: Align boundaries with PLSS grid and city limits
+Latah: Merge 27/37, 29/39; Adjust 19/29
+Washington: Align Weiser precincts with city limits
+
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Rodham Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PRECCOP - Scott Copeland (Constitution Party)
+G16PREIMCM - Evan McMullin (Independent)
+G16PREGSTE - Jill Stein (Independent)
+G16PREICAS - Darrell L. Castle (Independent)
+G16PREIFUE - Rocky De La Fuente (Independent)
+G16PREOWRI - Write-in Votes
+
+G16USSRCRA - Mike Crapo (Republican Party)
+G16USSDSTU - Jerry Sturgill (Democratic Party)
+G16USSCWRI - Ray J. Writz (Constitution Party)
+
+
+Illinois
+--------
+Election results from Illinois State Board of Elections(https://www.elections.il.gov/ElectionOperations/ElectionVoteTotals.aspx)
+
+Precinct shapefiles primarily from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release. The following counties used maps sourced from the respective county governments instead: DuPage, Kane, Kendall, Will.
+
+Some counties used the Census Redistricting shapefiles as a starting point, but were corrected using PDF maps to reverse changes made since 2016. These include Champaign, Greene, Hancock, Kane, Knox, LaSalle, Lawrence, Mason, St. Clair, Will, and Winnebago Counties.
+
+Countywide votes were distributed for Coles, Knox, Macon, McDonough, Tazewell. It was just a single vote in each of Knox, Macon, Tazewell; 3 votes in McDonough; and 30 votes in Coles.
+
+The SBOE results do not include write-in votes by precinct for 42 counties. For these counties the write-in votes by precinct are transcribed from the official county or city canvass reports.
+
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREOWRI - Write-in Votes
+
+G16USSDDUC - Tammy Duckworth (Democratic Party)
+G16USSRKIR - Mark Steven Kirk (Republican Party)
+G16USSLMCM - Kenton McMillen (Libertarian Party)
+G16USSGSUM - Scott Summers (Green Party)
+G16USSOWRI - Write-in Votes
+
+G16COMDMEN - Susana Mendoza (Democratic Party)
+G16COMRMUN - Leslie Geissler Munger (Republican Party)
+G16COMLBAL - Claire Ball (Libertarian Party)
+G16COMGCUR - Tim Curtin (Green Party)
+
+
+Indiana
+-------
+Election results primarily from individual county canvass reports via OpenElections (https://github.com/openelections/openelections-data-in/). 
+
+Incorrect or incomplete data was replaced using the county canvass reports for the following counties: Clark, Clinton, Dearborn, DeKalb, Delaware, Grant, Greene, Hancock, Howard, Huntington, Jasper, Jefferson, Johnson, Knox, Marion, Montgomery, Morgan, Newton, Noble, Perry, Posey, Putnam, Steuben, Switzerland, Tipton, Vermillion, Vigo.
+
+Provisional votes and/or overseas ballots were reported countywide in Cass, Floyd, Hamilton, Hancock, Harrison, Monroe, and Wayne. These were distributed by candidate to precincts based on their share of the precinct-level reported vote.
+
+The initial precinct shapefile was provided by the Indiana Secretary of State Election Division (https://www.in.gov/sos/elections/). However, many counties featured outdated or inaccurate precinct boundaries usually related to changes in corporate boundaries. The correct 2016 precinct boundaries were identified using GIS maps from each county. As appropriate, precinct boundaries for the following counties were replaced using either the 2018 or 2020 release of the U.S. Census Bureau's 2020 Redistricting Data Program. Where necessary, boundaries were further edited to align with the 2016 corporate boundaries as determined via county parcel records. 
+
+Adams, Allen, Bartholomew, Boone, Clark, Clinton, Daviess, Dearborn, Decatur, DeKalb, Delaware, Dubois, Fayette, Floyd, Fountain, Franklin, Fulton, Gibson, Greene, Hamilton, Hancock, Harrison, Hendricks, Henry, Howard, Huntington, Jackson, Jay, Jefferson, Jennings, Johnson, Kosciusko, Lake, Marion, Monroe, Montgomery, Ohio, Perry, Posey, Rush, Scott, Shelby, St. Joseph, Sullivan, Tipton, Vigo, Warrick, Wayne, Wells, Whitley.
+
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREOWRI - Write-in Votes
+
+G16USSRYOU - Todd Young (Republican Party)
+G16USSDBAY - Evan Bayh (Democratic Party)
+G16USSLBRE - Lucy Brenton (Libertarian Party)
+G16USSOWRI - Write-in Votes
+
+G16GOVRHOL - Eric Holcomb (Republican Party)
+G16GOVDGRE - John R. Gregg (Democratic Party)
+G16GOVLBEL - Rex Bell (Libertarian Party)
+G16GOVOWRI - Write-in Votes
+
+G16ATGRHIL - Curtis T. Hill, Jr. (Republican Party)
+G16ATGDARR - Lorenzo Arredondo (Democratic Party)
+
+G16SPIRMCC - Jennifer McCormick (Republican Party)
+G16SPIDRIT - Glenda Ritz (Democratic Party)
+
+
+Iowa
+----
+Results are divided across two files, one for general election results, one for Democratic caucus results.
+
+*ia_2016 file*
+Election results from IA Secretary of State: https://sos.iowa.gov/elections/results/index.html
+Precinct shapefile from IA Secretary of State: https://sos.iowa.gov/shapefiles/
+
+The following precincts were merged to match the 2016 election reports:
+Appanoose: Udell/Union
+Black Hawk: Cedar Falls W2P2/Cedar Falls Twp
+Des Moines: Burlington 1/Tama, Burlington 8/Concordia
+Dickinson: Precinct 6/Precinct 7
+Fremont: Hamburg/Washington, Farragut/Shenandoah1
+Polk: Grimes 2/Urbandale 12
+
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PRECCAS - Darrell Castle (Constitution Party)
+G16PREOVAC - Dan Vacek (Legal Marijuana Now Party)
+G16PREOKAH - Lynn Kahn (New Independent Party Iowa)
+G16PREIMCM - Evan McMullin (Independent)
+G16PREIFUE - Rocky De La Duente (Independent)
+G16PREORIV - Gloria La Riva (Party for Socialism and Liberation)
+G16PREOWRI - Write-in Votes
+
+G16USSRGRA - Chuck Grassley (Republican Party)
+G16USSDJUD - Patty Judge (Democratic Party)
+G16USSLALD - Charles Aldrich (Libertarian Party)
+G16USSOHEN - Jim Hennager (New Independent Party Iowa)
+G16USSILUI - Michael Luick-Thrams (Independent)
+G16USSOWRI - Write-in Votes
+
+*ia_2016_demcaucus file*
+Election results from IA Democratic Party: http://iowademocrats.org/final-precinct-results-for-2016-iowa-democratic-party-caucuses/ (original url)
+Precinct shapefile from IA Secretary of State: https://sos.iowa.gov/shapefiles/
+
+The Iowa Democratic Party did not report individual vote tallies for the 2016 Iowa caucuses. The caucus results are State Delegate Equivalents that represent the number of state convention delegates that the candidates received based on the caucus results. The SDE figures are multiplied by 100 following the standard practice of the Associated Press since precinct-level SDE figures are provided as very small fractions in the actual caucus reports.
+
+The precinct results do not include the state delegates awarded via satellite locations for participants with hardship exceptions or via tele-caucus for voters abroad. The satellite locations awarded 2 state delegates to Hillary Clinton and 1 state delegate to Bernie Sanders. The tele-caucus awarded 1 state delegate to Hillary Clinton and 1 state delegate to Bernie Sanders.
+
+The following precincts were merged to match the 2016 caucus results:
+
+Appanoose: Udell/Union
+Black Hawk: Cedar Falls W2P2/Cedar Falls Twp
+Des Moines: Burlington 1/Tama, Burlington 8/Concordia
+Fremont: Hamburg/Washington, Farragut/Shenandoah1
+Polk: Grimes 2/Urbandale 12
+
+C16PREDCLI - Hillary Clinton
+C16PREDSAN - Bernie Sanders
+C16PREDOMA - Martin O'Malley
+C16PREDUNC - Uncommitted
+
+
+Kansas
+------
+Election results from OpenElections.
+Precinct shapefiles primarily from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release, with the exception of Geary, Johnson, and Riley Counties, which came from the counties. Significant changes based on county-sourced PDF maps in Douglas, Ellis, Harvey, Leavenworth, Lyon, Meade, Nemaha, Reno, and Stevens Counties. Precincts in Syracuse, Hamilton County based on voter file geocoding.
+
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREOTH - Write-in Votes
+
+G16USSDWIE - Patrick Wiesner (Democratic Party)
+G16USSRMOR - Jerry Moran (Republican Party)
+G16USSLGAR - Robert Garrard (Libertarian Party)
+G16USSOTH - Write-in Votes
+
+
+Kentucky
+--------
+Election results primarily from Kentucky State Board of Elections (https://elect.ky.gov/results/2010-2019/Pages/2016primaryandgeneralelectionresults.aspx) Precinct shapefile primarily from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release.
+
+Election results for the following counties were sourced from the respective county precinct reports: Breckinridge, Campbell, Elliott, Hardin, Hart, Jefferson, Lee, Lewis, Mercer, Morgan, Nelson, Owsley, Pike, Powell, Pulaski, Robertson, Scott, Warren.
+
+Note that the precinct totals for the following counties differed by low single digits from the official state totals: Breathitt, Fayette, Kenton, Menifee, Pike, Scott, Trigg, Wayne.
+
+Countywide absentee votes were distributed for most counties. These were distributed by candidate to precincts based on their share of the precinct-level reported vote. Absentee votes were reported by congressional district for Boyd, Harrison, Jessamine, Spencer, Washington and at both the congressional and legislative district level for Jefferson. These were distributed accordingly to the precincts within the respective reporting units.
+
+The following modifications were made to the shapefile to reverse precinct changes since 2016:
+
+Boone: Merge B130/B135
+Boyd: Merge A106/A108, A105/A109
+Bullitt: Split A104/A110
+Calloway: Split A104/A105, C105/C106/C107, C109/C110, D102/D106, D103/D104; Adjust D105/D108
+Daviess: Split A101/A104, A102/A112/A142, A105/A133, A107/A109/A118, A108/A116, A110/A147, A111/A141, A114/A121/A124/A125, A119/A132, A120/A123/A137/A148, A128/A145, A129/134, A130/A131, A140/A144, A146/H108, B103/E101, F101/F104, G101/G104, G103/G105, H103/H110, H104/H111, H105/H106
+Fayette: Split A108/A175, A162/A178, B123/B228, B142/B154, B182/B229/B230, C102/C151; Merge A205 into A183/A191/A199
+Hardin: Merge E004/E007; Split G004/G005, H002/H007
+Jefferson: Split I141/H156, J104/J146
+Kenton: Split B106/B139
+McCracken: Merge A113/A134, C109/C129; Split A119/A133, B114/B118
+Madison: Merge B110/B111, D106/D108
+Mason: Split A101/A102, B102/B103, B105/B106
+
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Rodham Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREIMCM - Evan McMullin (Independent)
+G16PREOFUE - Rocky Roque De La Fuente (American Delta Party)
+
+G16USSRPAU - Rand Paul (Republican Party)
+G16USSDGRA - Jim Gray (Democratic Party)
+
+
+Louisiana
+---------
+Election results from LA Secretary of State: https://voterportal.sos.la.gov/static/2016-11-08
+Precinct shapefile from LA House of Representatives: http://house.louisiana.gov/H_Redistricting2011/default_LouisianaPrecinctShapefiles
+
+Absentee votes and provisional ballots were reported at the parish level. These were distributed by candidate to precincts based on their share of the precinct-level reported vote.
+
+Election results from the following parishes include "alpha" precincts in which voters within the same geographic boundaries are assigned to separate precincts by the first letter of their surname: Ascension, Assumption, Bossier, Caddo, East Baton Rouge, Lafayette, Lafourche, Rapides, St. Charles, St. Landry, Terrebonne
+
+The following precincts were modified to reflect alterations enacted prior to the 2016 election:
+
+Avoyelles: Merge 2-5B/6-1A
+Plaquemines: Merge 2-1/2-2, 4-1/4-2, 5-1/5-2
+St. Charles: Merge 2-6/2-7, 3-1/3-6, 3-3/3-4, 6-2/6-3, 6-4/6-5
+Vermilion: Split 49B-1/49B-2
+West Baton Rouge: Split 2-A/2-B; 11-A/11-B
+
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREOMCM - Evan McMullin (Courage Character Service Party)
+G16PRECCAS - Darrell Castle (Constitution Party)
+G16PREOOTH - Other Candidates
+
+G16USSRKEN - John Kennedy (Republican Party)
+G16USSRBOU - Charles Boustany (Republican Party)
+G16USSRFLE - John Fleming (Republican Party)
+G16USSRMAN - Rob Maness (Republican Party)
+G16USSRDUK - David Duke (Republican Party)
+G16USSRCRA - Donald "Crawdaddy" Crawford (Republican Party)
+G16USSRCAO - Joseph Cao (Republican Party)
+G16USSRMAR - Charles Marsala (Republican Party)
+G16USSRPAT - Abhay Patel (Republican Party)
+G16USSDCAM - Foster Campbell (Democratic Party)
+G16USSDFAY - Caroline Fayard (Democratic Party)
+G16USSDEDW - Derrick Edwards (Democratic Party)
+G16USSDLAN - Gary Landrieu (Democratic Party)
+G16USSDPEL - Joshua Pellerin (Democratic Party)
+G16USSDWIL - Peter Williams (Democratic Party)
+G16USSDMEN - MV "Vinny" Mendoza (Democratic Party)
+G16USSLCLE - Thomas P. Clements (Libertarian Party)
+G16USSLGIL - Le Roy Gillam (Libertarian Party)
+G16USSOLAN - William Robert "Bob" Lang, Jr. (Other Party)
+G16USSOTAY - Gregory Taylor, Jr. (Other Party)
+G16USSNBIL - Beryl Billiot (No Party Affiliation)
+G16USSNHEB - Troy Hebert (No Party Affiliation)
+G16USSNMAR - Kaitlin Marone (No Party Affiliation)
+G16USSNWEL - Arden Wells (No Party Affiliation)
+
+R16USSRKEN - John Kennedy (Republican Party)
+R16USSDCAM - Foster Campbell (Democratic Party)
+
+
+Maine
+-----
+Election results by township from Maine Bureau of Corporations, Elections & Commissions (https://www.maine.gov/sos/cec/elec/results/index.html)
+Election results by ward from municipal reports for Auburn, Augusta, Belfast, Biddeford, Ellsworth, Gorham, Harpswell, Lewiston, Portland, Saco, Sanford, South Portland, Westbrook.
+
+Precinct shapefiles primarily from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release. Voting District shapefiles were available for Androscoggin, Cumberland, Kennebec, Sagadahoc, Waldo, York. County Subdivision shapefiles were used instead for Aroostook, Franklin, Hancock, Knox, Lincoln, Oxford, Penobscot, Piscataquis, Somerset, Washington.
+
+VTDs were merged for Bath, Brunswick, Waterville as statewide votes are not reported by ward. VTDs for Biddeford, Ellsworth, Gorham, Harpswell were sourced from township ward maps.
+
+Absentee votes were reported at the township level for Auburn, Lewiston, Gorham, Harpswell, Portland, Westbrook, Augusta, Belfast, Sanford, South Portland. These were distributed to precincts based on the precinct's share of the township vote for each candidate. Military and overseas ballots (UOCAVA) were reported at the state level. These were distributed to precincts based on the precinct's share of the statewide vote for each candidate.
+
+For Biddeford, Ellsworth, Lewiston, Portland, Sanford, South Portland write-in votes reported at the township level were apportioned to precincts in the same shares that the total vote was split among precincts within the township.
+
+The state reported 987 votes from Portland for Jill Stein (G). The precinct-level votes in the Portland city report add up to 995 total votes for Stein.
+
+Maine includes more than 400 unorganized townships and islands that do not lie within municipal bounds. While some are designated separately, the U.S. Census Bureau combines most of these into larger unorganized territories within each county. Voters in unorganized townships are assigned to nearby incorporated townships. In some cases these votes are reported separately while in others they are combined into the total vote reported from the central voting location. The shapefile has been modified accordingly with boundaries from the Town Boundaries shapefile provided by the Maine Office of GIS. For unorganized territories that are unpopulated or otherwise do not appear to have any registered voters the Census boundaries have been retained unaltered.
+
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREOOTH - Write-in Votes
+
+
+Maryland
+--------
+Election results from Maryland State Board of Elections (https://elections.maryland.gov/elections/2016/election_data/index.html)
+Precinct shapefile from Maryland Department of Planning
+
+Early, Provisional, and Absentee votes are reported only at the county level. These votes are apportioned to precincts by candidate in the same shares that the Election Day vote was split among precincts within a county.
+
+G16PRERTru - Donald J. Trump (Republican Party)
+G16PREDCli - Hillary Clinton (Democratic Party)
+G16PRELJoh - Gary Johnson (Libertarian Party)
+G16PREGSte - Jill Stein (Green Party)
+G16PREOth - Write-in Votes
+
+G16USSRSze - Kathy Szeliga (Republican Party)
+G16USSDVan - Chris Van Hollen (Democratic Party)
+G16USSGFlo - Margaret Flowers (Green Party)
+G16USSOth - Write-in Votes
+
+G16H01RHar - Andy Harris (Republican Party)
+G16H01DWer - Joe Werner (Democratic Party)
+G16H01LBee - Matt Beers (Libertarian Party)
+G16H01Oth - Write-in Votes
+
+G16H02RMcD - Pat McDonough (Republican Party)
+G16H02DRup - C. A. Dutch Ruppersberger (Democratic Party)
+G16H02LKas - Kristin S. Kasprzak (Libertarian Party)
+G16H02Oth - Write-in Votes
+
+G16H03RPla - Mark Plaster (Republican Party)
+G16H03DSar - John Sarbanes (Democratic Party)
+G16H03GEze - Nnabu Eze (Green Party)
+G16H03Oth - Write-in Votes
+
+G16H04RMcD - George E. McDermott (Republican Party)
+G16H04DBro - Anthony G. Brown (Democratic Party)
+G16H04LKra - Benjamin Lee Krause (Libertarian Party)
+G16H04GCla - Kamesha T. Clark (Green Party)
+G16H04Oth - Write-in Votes
+
+G16H05RArn - Mark Arness (Republican Party)
+G16H05DHoy - Steny H. Hoyer (Democratic Party)
+G16H05LSum - Jason Summers (Libertarian Party)
+G16H05Oth - Write-in Votes
+
+G16H06RHoe - Amie Hoeber (Republican Party)
+G16H06DDel - John K. Delaney (Democratic Party)
+G16H06LHow - David L. Howser (Libertarian Party)
+G16H06GGlu - George Gluck (Green Party)
+G16H06Oth - Write-in Votes
+
+G16H07RVau - Corrogan R. Vaughn (Republican Party)
+G16H07DCum - Elijah Cummings (Democratic Party)
+G16H07GHoe - Myles B. Hoenig (Green Party)
+G16H07Oth - Write-in Votes
+
+G16H08RCox - Dan Cox (Republican Party)
+G16H08DRas - Jamie Raskin (Democratic Party)
+G16H08LWun - Jasen Wunder (Libertarian Party)
+G16H08GWal - Nancy Wallace (Green Party)
+G16H08Oth - Write-in Votes
+
+
+Massachusetts
+-------------
+Election results from Massachusetts Secretary of the Commonwealth (https://electionstats.state.ma.us/) Precinct shapefile from MassGIS Bureau of Geographic Information (https://docs.digital.mass.gov/dataset/massgis-data-wards-and-precincts)
+
+The following precincts were split by congressional district to match reporting units: Andover 7,9; Bellingham 4; Cambridge 3-2; Fall River 5B,6C; Palmer 1; Raynham 1,2; Sudbury 1; Winchendon 1. The following precinct divisions are authorized and defined for voting purposes but not for redistricting purposes by specific acts of the MA legislature and were split accordingly: Chicopee 6A,6B; Dracut 6; Hingham 5; Newburyport 1; Peabody 4-3; Quincy 2-3; Revere 2-3,5-1,5-2. Warren A and Warren B precincts were split based on polling place assignments in the Warren parcel shapefile.
+
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREOWRI - Other Candidates
+
+
+Michigan
+--------
+Election results from the Michigan Department of State (https://miboecfr.nictusa.com/cgi-bin/cfr/precinct_srch.cgi)
+Precinct shapefile from the Michigan Department of State (https://gis-michigan.opendata.arcgis.com/datasets/8ce0f3ce3ff74109ac02a26d34a0f4fc_1)
+
+Michigan has cities split across counties. Two are relevant to their reported election results versus the precinct map (which did not make the split), Fenton and Richmond. Those precincts were merged to reflect the precinct map.
+
+Most counties had "statistical adjustments" that were at the county level, rather than the precinct level. Only two were for party candidates (Huron and Kalkaka), and in those cases, two or fewer votes. The remaining cases were related to "other" votes. Due to the scattered nature of "other" votes, these votes are apportioned to precincts by the split of total votes of precincts within the county.
+
+Detroit allows for absentee votes to be reported by Absentee Voter Counting Boards, which generally contain multiple precincts. These votes are apportioned to precincts by candidate in the same shares that the non-AVCB vote was split among precincts within a county. The linkage between election precinct and AVCB was provided by OpenElections via Derek Willis. Precinct 176 was listed as split between AVCB 37 and AVCB 158, the only precinct in the city that was listed as split. AVCB 158 has no other precinct assigned to it, so all votes went to precinct 176. However, this was a very low number of votes relative to the other AVCBs, so for ease of calculation, 176 was treated as a normal member of AVCB 37 in the disaggregation calculation described above.
+
+G16PREDCli - Hillary Clinton (Democratic Party)
+G16PRERTru - Donald J. Trump (Republican Party)
+G16PREGSte - Jill Stein (Green Party)
+G16PRELJoh - Gary Johnson (Libertarian Party)
+G16PREOth - Other Candidates/Write-in Votes
+
+
+Minnesota
+---------
+Election results and precinct shapefile from the Minnesota Secretary of State (https://gisdata.mn.gov/dataset/bdry-electionresults-2012-2020)
+
+G16PRERTru - Donald J. Trump (Republican Party)
+G16PREDCli - Hillary Clinton (Democratic-Farmer-Labor Party)
+G16PRECCas - Darrell L. Castle (Constitution Party)
+G16PREMVac - Dan R. Vacek (Legal Marijuana Now Party)
+G16PRESKen - Alyson Kennedy (Socialist Workers Party)
+G16PREGSte - Jill Stein (Green Party)
+G16PREIDeL - Roque De La Fuente (American Delta Party)
+G16PREIMcM - Evan McMullin (Independence Party)
+G16PRELJoh - Gary Johnson (Libertarian Party)
+G16PREOth - Write-in Votes
+
+
+Missouri
+--------
+Election results from the Secretary of State's office via OpenElections (https://github.com/openelections/openelections-data-mo/tree/master/2016). Absentee,provisional, and mail ballots were reported countywide in nearly every county; these were distributed by candidate to precincts based on their share of the precinct-level reported vote.
+
+Precinct shapefiles primarily from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release. Monroe County comes from the 2010 Census VTD release. Platte County comes from the 2020 Census VTD release.  The following counties instead used maps or shapefiles sourced from the respective county governments: Audrain, Bates, Caldwell, Callaway, Camden, Cape Girardeau, Cedar, Cooper, Franklin, Greene, Jackson, Jasper, Jefferson, Laclede, Lafayette, Lawrence, Marion, McDonald, Miller, Nodaway, Osage, Ozark, Pemiscot, Pike, Randolph, Scott, Ste. Genevieve, Texas, Warren, Washington, Worth, Wright.
+
+Precinct mergers were made in the following counties to match county reporting units: Andrew, Audrain, Barry, Benton, Bollinger, Boone, Callaway, Camden, Cape Girardeau, Carroll, Carter, Cass, Christian, Clark, Cole, Cooper, Crawford, Dallas, Dekalb, Douglas, Dunklin, Franklin, Gentry, Greene, Grundy, Howard, Howell, Jackson, Jasper, Jefferson, Johnson, Linn, Livingston, Marion, Mercer, Mississippi, Moniteau, Morgan, New Madrid, Nodaway, Oregon, Osage, Pemiscot, Pettis, Phelps, Platte, Polk, Putnam, Ralls, Randolph, Ray, Ripley, St. Clair, St. Louis, Schuyler, Shannon, Shelby, Stone, Sullivan, Warren, Wayne, Webster, Worth.
+
+Additional modifications to reflect how election results were reported in 2016:
+
+Audrain: Add Vandalia City; Align Mexico precincts with municipal code
+Barry: Add Monett City; Align Cassville with corporate boundary
+Barton: Adjust Lamar ward boundaries to match city map
+Bollinger: Adjust Patton/Sedgewickville to match county GIS
+Butler: Align Poplar Bluff with corporate boundary and adjust wards to match city map
+Callaway: Align Fulton, Holts Summit precincts with 2016 corporate boundaries
+Carroll: Adjust Carrollton City wards to match voter file
+Cass: Align Belton, Pleasant Hill, Raymore precincts with corporate boundaries; Adjust 37 Pleasant Prairie/25 West Peculiar Rural
+Chariton: Adjust Salisbury ward boundaries to match city map
+Christian: Revise Cassidy 1/Cassidy 2; Reverse Nixa City annexations into Rosedale 1A/1B, Union Chapel 1
+Clay: Adjust Excelsior Springs, Kearney, Smithville precincts to match 2016 ward and corporate boundaries; Adjust KC 21-1/15, 21-1/17, 21-3/11, 21-4/6, 21-4/11, 21-5/7/24, 21-6/24, 21-7/20, 21-13/26, 21-14/23, 21-17/16, 21-17/26, 21-17/Platte 1, Gallatin 7/16, 10/13, 10/16, 11/15, 13/15, Kearney 3/Platte 2, Liberty 1/10, 6/13, 7/11, 11/14, Washington 1/3 to match voter file
+Clinton: Align Atchison/Concord, Jackson/Lathrop with 2016 precinct split assignments
+Cole: Adjust Marion Twp St Martins to include St Martins city in Jefferson Twp
+Crawford: Move Benton Twp section of Leasburg precinct from Recklein to Leasburg
+Dade: Realign Greenfield wards to match municipal code
+Dallas: Split North Benton Inside/OCL; Align N/S Benton with Buffalo ward map
+Dent: Split Boss precinct from R-4 precinct; Adjust R-2/R-3 boundary
+Dunklin: Align Holcomb, Rives with township boundaries; Adjust Arbyrd/Senath; Align Kennett wards with city map
+Franklin: Split Dry Branch between Stanton & St. Clair Out of Town
+Gasconade: Align Hermann, Owensville, Rosebud with corporate boundaries and ward descriptions
+Howard: Split Old Franklin & New Franklin
+Howell: Align West Plains precincts with 2016 corporate boundary
+Iron: Adjust Annapolis/Des Arc/Vulcan, Ironton/Pilot Knob
+Jasper: Realign Carthage 2/3, Joplin 1/7, 10/13, 10/15, 13/22, Oronogo 1/2, Webb City 1/4 to match city ward maps
+Jefferson: Split Festus Ward 4 P1/P2; Adjust Crystal City/Riverview
+Johnson: Adjust Warrensburg NE/NW boundary to match county maps
+Lewis: Split LaBelle Twp between LaBelle FS/Lewistown FS with PLSS grid
+Lincoln: Align Moscow Mills, Troy with 2016 corporate boundaries; Adjust Briscoe/Troy Rural
+Linn: Split Brookfield Township between Brookfield 1&2/3&4
+Livingston: Align Chillicothe with 2016 corporate boundaries
+Macon: Align Macon City wards with corporate boundaries
+Madison: Align Fredericktown wards with corporate boundaries
+Marion: Split Fabius-Smileyville/Taylor, Warren-Monroe City/Warren; Align Hannibal wards with voter file
+Miller: Adjust all precinct boundaries to match voter file
+Mississippi: Adjust Bertrand/East Prairie Rural; Align East Prairie City with corporate boundary
+Montgomery: Align Bellflower/Middletown, Big Spring/Rhineland with voter file
+Morgan: Adjust Versaille North/South boundary to match county GIS
+New Madrid: Add New Madrid City wards; Add Big Prairie 4 precinct; Move Portageville Ward 1 to Portage 1
+Newton: Align Staples precincts with Joplin City GIS boundaries; Align Neosho precincts with Neosho City GIS boundaries; Adjust Newtonia/Ritchey Wentworth
+Pettis: Adjust Sedalia City wards to match city map
+Phelps: Align St. James ward boundaries with city map
+Pike: Adjust Cuivre JL boundaries with Ashley NO, Buffalo E, Prairieville I
+Platte: Align Lake Waukomis, Parkville, Platte City, Riverside/Northmore, Weatherby Lake with corporate boundaries; Adjust Platte Hills/Park Hill, Seven Bridges/Shiloh
+Polk: Split Campbell/Jefferson precincts by school district
+Pulaski: Adjust Big Piney/St. Roberts, Laquey/Waynesville
+Putnam: Split Union Twp into NE/SW precincts to match county map
+Ralls: Replace Center/Liberty precincts with 2010 VTDs
+Ray: Adjust Richmond City wards, Homestead Village/Wood Heights/Lawson
+Reynolds: Realign precincts countywide to match voter file
+Saline: Split Nelson precinct from Hardeman precinct; Adjust Marshall Ward 2/3 boundary
+St. Charles: Adjust Brian/Ridgepoint, Civic/St. Paul, Harvester/Sycamore, Mamelle/Marina
+St. Francois: Align Desloge, Farmington, Park Hills with corporate boundaries and city ward maps; Adjust Bonne Terre/Timberline, Patterson/Timberline, Leadwood/Park Hills to match voter file
+St. Louis: Add UNV044 precinct; Revise QUE047 precinct
+Scott: Adjust Haywood City/Morley, Sikeston Ward 1/McMullin/Vanduser
+Shannon: Align all precincts with county GIS and voter file
+Shelby: Adjust Jackson/North River to match voter file
+Stoddard: Align Advance, Bernie, Bloomfield, Dexter, Puxico with corporate boundaries; Adjust Advance/Leora, Bernie/Dexter/Pyle, Bloomfield/Gray Ridge
+Stone: Move Branson West from Ruth A to Ruth C; Adjust Ruth B City/Rural to match county GIS
+Taney: Adjust Boston Center/Walnut Shade; Align Branson wards with 2016 corporate boundary
+Vernon: Align Bronaugh/Moundville, Harwood/Schell City, Deerfield/NG Armory with voter file
+Washington: Adjust City Hall/Stony Point, Cruise/Richwoods to match county GIS
+
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Rodham Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PRECCAS - Darrell L. Castle (Constitution Party)
+
+G16USSRBLU - Roy Blunt (Republican Party)
+G16USSDKAN - Jason Kander (Democratic Party)
+G16USSLDIN - Jonathan Dine (Libertarian Party)
+G16USSGMCF - Johnathan McFarland (Green Party)
+G16USSCRYM - Fred Ryman (Constitution Party)
+
+G16GOVRGRE - Eric Greitens (Republican Party)
+G16GOVDKOS - Chris Koster (Democratic Party)
+G16GOVLSPR - Cisse W. Spragins (Libertarian Party)
+G16GOVGFIT - Don Fitz (Green Party)
+G16GOVITUR - Lester Benton (Les) Turilli, Jr. (Independent)
+
+G16LTGRPAR - Mike Parson (Republican Party)
+G16LTGDCAR - Russ Carnahan (Democratic Party)
+G16LTGLHED - Steven R. Hedrick (Libertarian Party)
+G16LTGGLEA - Jennifer Leach (Green Party)
+
+G16ATGRHAW - Josh Hawley (Republican Party)
+G16ATGDHEN - Teresa Hensley (Democratic Party)
+
+G16TRERSCH - Eric Schmitt (Republican Party)
+G16TREDBAK - Judy Baker (Democratic Party)
+G16TRELOTO - Sean O'Toole (Libertarian Party)
+G16TREGHEX - Carol Hexem (Green Party)
+
+G16SOSRASH - John (Jay) Ashcroft (Republican Party)
+G16SOSDSMI - Robin Smith (Democratic Party)
+G16SOSLMOR - Chris Morrill (Libertarian Party)
+
+
+Montana
+-------
+Election results from Montana Secretary of State (https://sosmt.gov/elections/results/)
+ 
+Precinct shapefile primarily from Dave Ritts at the Montana State Library, pending submission to the U.S. Census Bureau's 2020 Redistricting Data Program. The following counties used 2016 precinct maps sourced from the respective county governments instead: Fallon, Phillips, Valley.
+ 
+Precinct splits in Lake County were reversed based on the 2016 precinct shapefile from the county. The A/B subdivisions of Precinct 16 and Precinct 33 in Lewis and Clark were added based on county precinct maps.
+
+G16PRERTRU - Donald Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREOFUE - "Rocky" Roque de la Fuente (American Delta)
+
+G16HALRZIN - Ryan Zinke (Republican Party)
+G16HALDJUN - Denise Juneau (Democratic Party)
+G16HALLBRE - Rick Breckenridge (Libertarian Party)
+
+G16GOVRGIA - Greg Gianforte (Republican Party)
+G16GOVDBUL - Steve Bullock (Democratic Party)
+G16GOVLDUN - Ted Dunlap (Libertarian Party)
+
+G16ATGRFOX - Tim Fox (Republican Party)
+G16ATGDJEN - Larry Jent (Democratic Party)
+
+G16SOSRSTA - Corey Stapleton (Republican Party)
+G16SOSDLIN - Monica Lindeen (Democratic Party)
+G16SOSLROO - Roger Roots (Libertarian Party)
+
+G16AUDRROS - Matt Rosendale (Republican Party)
+G16AUDDLAS - Jesse Laslovich (Democratic Party)
+
+G16SPIRARN - Elsie Arntzen (Republican Party)
+G16SPIDROM - Melissa Romano (Democratic Party)
+
+
+Nebraska
+--------
+Election results from OpenElections, gathered from county elections officials.
+
+Precinct shapefiles primarily from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release. 
+
+Adams, Antelope, Box Butte, Buffalo, Burt, Butler, Cass, Chase, Cherry, Cuming, Dakota, Dawes, Dawson, Deuel, Douglas, Garfield, Hamilton, Harlan, Holt, Kearney, Keith, Keya Paha, Kimball, Lancaster, Madison, Merrick, Otoe, Perkins, Platte, Red Willow, Richardson, Saline, Sarpy, Seward, Stanton, Valley, and Washington either used a replacement shapefile or, more often, required tweaks based on PDF maps from county election officials.
+
+Some counties reported one or more classes of votes at the county level. These were distributed by candidate based on the precinct-level reported vote.
+
+Write-in votes were inconsistently provided by the counties, so they were excluded. Unofficial precinct results from NE Secretary of State used as a cross-reference in places.
+
+G16PRERTRU - Donald Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+
+
+Nevada
+------
+Election results from Nevada Secretary of State (https://www.nvsos.gov/sos/elections/election-information/precinct-level-results)
+
+Precinct shapefiles primarily from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release. The following counties used shapefiles sourced from the respective county governments instead: Clark, Douglas, Elko, Humboldt, Lincoln, Lyon, Washoe.
+
+County borders in all county-sourced shapefiles were aligned to the U.S Census Bureau's boundaries. Minor adjustments were made in the Precinct 1/3 boundary of Eureka County and in the Precinct 6/5 boundary of Pershing County to match county GIS maps. Substantial revisions were made in the Fallon area of Churchill County and in the Tonopah area of Nye County to match county PDF maps.
+
+Countywide-reported votes for Carson City, Churchill, Clark, Douglas, Elko, Humboldt, Lyon, Nye, Pershing, Washoe, and White Pine were distributed by candidate based on the precinct-level reported vote. Clark County had congressional district-reported votes that were distributed accordingly.
+
+The state election results by precinct do not include precinct votes by candidate for precincts with less than 10 total votes cast. For Douglas and Washoe, these were transferred from the county precinct reports. For Churchill, Elko, Esmeralda, Humboldt, Lyon, Mineral, Nye, Pershing, Storey, and White Pine these were inferred from the countywide totals. Clark County was also inferred from countywide totals, but using additional party registration information as of Nov 5, 2016 with slight adjustments to match total ballots cast per precinct.
+
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREICAS - Darrell L. Castle (Independent American Party)
+G16PRENROC - Roque "Rocky" De La Fuente (No Political Party)
+G16PREONON - None of These Candidates
+
+G16USSDCOR - Catherine Cortez Masto (Democratic Party)
+G16USSRHEC - Joe Heck (Republican Party)
+G16USSIJON - Tom Jones (Independent American Party)
+G16USSNSAW - Thomas "Tom" Sawyer (No Political Party)
+G16USSNGUM - Tony Gumina (No Political Party)
+G16USSNWIL - Jarrod M. Williams (No Political Party)
+G16USSONON - None of These Candidates
+
+
+New Hampshire
+-------------
+Election results from New Hampshire Secretary of State (https://sos.nh.gov/2016GenResults.aspx)
+
+Precinct shapefile from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release.
+
+The Census VTD shapefile includes wards for the Town of Berlin and the Town of Derry that are only used for municipal elections. These were merged to match the statewide election returns. The wards for the Town of Laconia were revised to match the 2012 municipal redistricting map.
+
+Results reported across two files, one for the general, one for the presidential primary.
+
+*nh_2016 file*
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREOFUE - Roque "Rocky" De La Fuente (American Delta Party)
+G16PREOWRI - Write-in Votes
+
+G16USSRAYO - Kelly Ayotte (Republican Party)
+G16USSDHAS - Maggie Hassan (Democratic Party)
+G16USSLCHA - Brian Chabot (Libertarian Party)
+G16USSIDAY - Aaron Day (Independent)
+G16USSOWRI - Write-in Votes
+
+G16GOVRSUN - Chris Sununu (Republican Party)
+G16GOVDVAN - Colin Van Ostern (Democratic Party)
+G16GOVLABR - Max Abramson (Libertarian Party)
+G16GOVOWRI - Write-in Votes
+
+*nh_2016_pres_primary file*
+P16PREDCLI - Hillary Clinton
+P16PREDSAN - Bernie Sanders
+P16PREDOMA - Martin O'Malley
+P16PREDOTH - Other Candidates on Ballot
+
+P16PRERTRU - Donald Trump
+P16PRERKAS - John Kasich
+P16PRERCRU - Ted Cruz
+P16PRERBUS - Jeb Bush
+P16PRERRUB - Marco Rubio
+P16PRERCHR - Chris Christie
+P16PRERFIO - Carly Fiorina
+P16PRERCAR - Ben Carson
+P16PRERPAU - Rand Paul
+P16PREROTH - Other Candidates on Ballot
+
+
+New Mexico
+----------
+Election results from the New Mexico Secretary of State's website (http://electionresults.sos.state.nm.us/).
+Precinct shapefiles for most counties from the state legislature's redistricting site (https://www.nmlegis.gov/Redistricting/). Lincoln, Los Alamos, McKinley, Sandoval, and Socorro updated with VTDs released by the Census Bureau's Redistricting Data Program.
+
+Two additional precincts added to Santa Fe's 2011 map based on a 2016 PDF.
+Several precincts in Roosevelt County renumbered from the 2011 map.
+
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREIMCM - Evan McMullin (Better For America Party)
+G16PRECCAS - Darrell L. Castle (Constitution Party)
+G16PRESLAR - Gloria La Riva (Socialism and Liberation Party)
+G16PREAROC - Roque De La Fuente (American Delta Party)
+
+G16SOSRESP - Nora Espinoza (Republican Party)
+G16SOSDOLI - Maggie Toulouse Oliver (Democratic Party)
+
+G16SSCRNAK - Judith K. Nakamura (Republican Party)
+G16SSCDVIG - Michael E. Vigil (Democratic Party)
+
+G16SACRFRE - Stephen G. French (Republican Party)
+G16SACDVAR - Julie J. Vargas (Democratic Party)
+
+
+New Jersey
+----------
+Election results primarily from individual county canvass reports via OpenElections (https://github.com/openelections/openelections-data-nj/). Results from Burlington, Camden, Middlesex, and Warren counties were partly or wholly replaced using the Statement of the Vote from the respective counties.
+
+Precinct shapefile from New Jersey Geographic Information Network (https://njogis-newjersey.opendata.arcgis.com/datasets/election-districts-for-new-jersey). Naval Weapons Station Earle in Monmouth County was added as an unassigned district.
+
+All counties except Middlesex, Sussex, and Warren report mail votes and provisional votes at the municipal and/or ward level. Essex, Gloucester, Hudson, Monmouth, Ocean, and Union further subdivide these vote types by other districts on the same ballot. Camden, Cape May, Essex, Gloucester, Hudson, Monmouth, Morris, Sussex, and Warren report overseas ballots countywide or by congressional district. All votes were distributed by candidate to precincts based on their share of the precinct-level reported vote of the respective reporting unit.
+
+The following modifications to the shapefile were made to reverse changes in precinct boundaries enacted since 2016:
+
+Gloucester: Merge Glassboro 1/13
+Hudson: Merge Jersey City Ward E 9/24, 6/25; Realign Union City Ward 9 precincts
+Passaic: Merge Pompton Lakes 3/6
+Union: Merge Elizabeth City W1 6/9, W2 2/11, W3 10/13, W4 7/10; Adjust Elizabeth City W2 4/7, 6/7, W3 3/6, W6 1/5
+
+G16PREDCLI - Hillary Rodham Clinton (Democratic Party)
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PRECCAS - Darrell Castle (Constitution Party)
+G16PREOKEN - Alyson Kennedy (Socialist Workers Party)
+G16PREOFUE - Rocky Roque De La Fuente (American Delta Party)
+G16PREOMOO - Monica Moorehead (Workers World Party)
+G16PREOLAR - Gloria La Riva (Socialism and Liberation)
+
+
+North Carolina
+--------------
+Election results and precinct shapefile from the NC State Board of Elections (https://www.ncsbe.gov/results-data)
+
+North Carolina produces two sets of election results data. The precinct results are the unaltered results as initially reported by the counties. Many counties report early votes by vote center while provisional and other nonstandard ballots may be reported countywide. The precinct-sorted results are then produced within 30 days after the election. In the precinct-sorted data nearly all votes are assigned to precincts regardless of the manner by which the ballots were cast. However, North Carolina law requires the addition of statistical "noise" to the precinct-sorted data wherever any given vote by any specific voter may otherwise be deduced via cross referencing the various election-related data sets produced by the SBE.
+
+Until the 2016 general election North Carolina also produced another results-sorted data set that assigned votes by Census VTD. Since NC precinct boundaries are now produced using Census blocks and are therefore interchangeable with VTDs the series was discontinued. The statistical "noise" added to the results-sorted data was greater than that added to the precinct-sorted data in some counties and lesser than that added to the precinct-sorted data in other counties.
+
+For the 2016 general election 29 counties reported all votes by precinct in their initial precinct results. These precinct results were therefore used for the following counties.
+
+Alamance, Alexander, Alleghany, Burke, Cherokee, Clay, Cleveland, Craven, Franklin, Graham, Granville, Hoke, Iredell, Madison, McDowell, Mitchell, Montgomery, Person, Randolph, Rockingham, Rowan, Rutherford, Stanly, Swain, Transylvania, Union, Vance, Warren, Yancey
+
+The results-sorted data had less noise than the precinct-sorted data in following 45 counties.
+
+Beaufort, Brunswick, Buncombe, Cabarrus, Caswell, Catawba*, Cumberland, Currituck, Davidson, Davie, Duplin, Durham*, Forsyth, Greene, Guilford, Halifax*, Harnett, Haywood, Henderson, Hyde, Jackson*, Johnston, Jones, Lee, Lenoir*, Lincoln, Macon, Moore, Nash, New Hanover, Onslow, Pamlico, Pasquotank, Pender, Pitt*, Polk, Richmond, Sampson, Scotland, Stokes*, Surry*, Tyrrell, Wayne, Wilkes, Yadkin
+
+The precinct-sorted data had less noise than the results-sorted data in the following 26 counties.
+
+Anson, Ashe, Avery, Bertie*, Bladen, Caldwell, Camden, Carteret*, Chatham, Chowan, Columbus, Dare, Edgecombe, Gaston, Gates*, Hertford, Martin*, Mecklenburg*, Northampton*, Orange, Perquimans*, Robeson*, Wake, Washington, Watauga, Wilson
+
+In counties marked by asterisk some votes were still reported by vote center or countywide in the results-sorted or precinct-sorted data. These were distributed by candidate to precincts based on the precinct-level reported vote. The results-sorted or  precinct-sorted results were further adjusted to match the certified countywide totals based on the precinct-level vote by candidate.
+
+For some counties the results-sorted data includes combined precincts are adds unsorted votes to one of the precinct line items. Where the results-sorted data otherwise contained less noise than the precinct-sorted data then the precinct-sorted data was used instead only for these precincts: Buncombe 05.1/56.2/68.1, Catawba 29, Cumberland CC17/CC31, Forsyth 402/403, Guilford G42B, New Hanover W03/W21, Scotland 09/10.
+
+G16PRERTRU - Donald Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREOWRI - Write-in Votes
+
+G16USSRBUR - Richard Burr (Republican Party)
+G16USSDROS - Deborah Ross (Democratic Party)
+G16USSLHAU - Sean Haugh (Libertarian Party)
+
+G16GOVRMCC - Pat McCrory (Republican Party)
+G16GOVDCOO - Roy Cooper (Democratic Party)
+G16GOVLCEC - Lon Cecil (Libertarian Party)
+
+G16LTGRFOR - Dan Forest (Republican Party)
+G16LTGDCOL - Linda Coleman (Democratic Party)
+G16LTGLCOL - Jacki Cole (Libertarian Party)
+
+G16ATGRNEW - Buck Newton (Republican Party)
+G16ATGDSTE - Josh Stein (Democratic Party)
+
+G16TRERFOL - Dale R. Folwell (Republican Party)
+G16TREDBLU - Dan Blue III (Democratic Party)
+
+G16SOSRLAP - Michael LaPaglia (Republican Party)
+G16SOSDMAR - Elaine Marshall (Democratic Party)
+
+G16AUDRSTU - Chuck Stuber (Republican Party)
+G16AUDDWOO - Beth A. Wood (Democratic Party)
+
+G16AGRRTRO - Steve Troxler (Republican Party)
+G16AGRDSMI - Walter Smith (Democratic Party)
+
+G16INSRCAU - Mike Causey (Republican Party)
+G16INSDGOO - Wayne Goodwin (Democratic Party)
+
+G16LABRBER - Cherie Berry (Republican Party)
+G16LABDMEE - Charles Meeker (Democratic Party)
+G16LABOWRI - Write-in Votes
+
+G16SPIRJOH - Mark Johnson (Republican Party)
+G16SPIDATK - June Atkinson (Democratic Party)
+
+G16SSCREDM - Robert H. Edmunds (Non-partisan but Republican-aligned)
+G16SSCDMOR - Michael R. Mogran (Non-partisan but Democrat-aligned)
+
+G16SACRDIE - Richard Dietz (Republican Party)
+G16SACDROZ - Vince Rozier (Democratic Party)
+
+G16SACRMUR - Hunter Murphy (Republican Party)
+G16SACDEAG - Margaret Eagles (Democratic Party)
+G16SACUBUI - Donald Ray Blue (Unaffiliated)
+
+G16SACRHUN - Bob Hunter (Republican Party)
+G16SACDJON - Abe Jones (Democratic Party)
+
+G16SACRBER - Phil Berger, Jr. (Republican Party)
+G16SACDSTE - Linda Stephens (Democratic Party)
+
+G16SACRZAC - Valerie Zachary (Republican Party)
+G16SACDMCK - Rickye McKoy-Mitchell (Democratic Party)
+
+
+North Dakota
+------------
+Election results from North Dakota Secretary of State (https://results.sos.nd.gov/Default.aspx?map=Cty&eid=292)
+Precinct shapefile primarily from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release.
+
+The following modifications were made to recreate the 2016 precinct boundaries.
+
+Grant: Merge 31-01/31-04 into Rural Grant
+Mercer: Add wards for Beulah and Hazen
+Mountrail: Merge 04-04/04-06 into Precinct 5
+Richland: Merge 25-03/25-10 into Wahpeton Comm Center
+Ward: Add precincts for Minot; Merge 40-01/40-02 into Ruthville Lynch Immanuel
+
+G16PRERTRU - Donald Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic-Nonpartisan League Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PRECCAS - Darrell L. Casstle (Constitution Party)
+G16PREOFUE - Roque De La Fuente (American Delta Party)
+G16PREOWRI - Write-in Votes
+
+G16USSRHOE - John Hoeven (Republican Party)
+G16USSDGLA - Eliot Glassheim (Democratic-Nonpartisan League Party)
+G16USSLMAR - Robert N. Marquette (Libertarian Party)
+G16USSIGER - James Germanlic (Independent)
+G16USSOWRI - Write-in Votes
+
+G16HALRCRA - Kevin Cramer (Republican Party)
+G16HALDIRO - Chase Iron Eyes (Democratic-Nonpartisan League Party)
+G16HALLSEA - Jack Seaman (Libertarian Party)
+G16HALOWRI - Write-in Votes
+
+G16GOVRBUR - Doug Burgum (Republican Party)
+G16GOVDNEL - Marvin E. Nelson (Democratic-Nonpartisan League Party)
+G16GOVLRIS - Marty Riske (Libertarian Party)
+G16GOVOWRI - Write-in Votes
+
+G16AUDRGAL - Josh Gallion (Republican Party)
+G16AUDLRIE - Rolan Riemers (Libertarian Party)
+G16AUDOWRI - Write-in Votes
+
+G16TRERSCH - Kelly L. Schmidt (Republican Party)
+G16TREDMAT - Tim Mathern (Democratic-Nonpartisan League Party)
+G16TRELOLS - Eric Olson (Libertarian Party)
+G16TREOWRI - Write-in Votes
+
+G16INSRGOD - Jon Godfread (Republican Party)
+G16INSDBUF - Ruth Buffalo (Democratic-Nonpartisan League Party)
+G16INSLBAT - Nick Bata (Libertarian Party)
+G16INSOWRI - Write-in Votes
+
+G16PSCRFED - Julie Fedorchak (Republican Party)
+G16PSCDHUN - Marlo Hunte-Beaubrun (Democratic-Nonpartisan League Party)
+G16PSCLSKA - Thomas Skadeland (Libertarian Party)
+G16PSCOWRI - Write-in Votes
+
+
+Ohio
+----
+Election results from the Ohio Secretary of State (https://www.sos.state.oh.us/elections/election-results-and-data/). Precinct shapefile from the U.S. Census Bureau's 2020 Redistricting Data Program final release. Note that some VTDs were relabeled to match precinct names and/or precinct codes in the November 2016 general election returns.
+
+The following counties include adjustments to account for corporate annexations that are not specified below by precinct: Adams, Allen, Athens, Auglaize, Brown, Butler, Defiance, Franklin, Fulton, Geauga, Guernsey, Holmes, Licking, Lorain, Madison, Marion, Miami, Ottawa, Pickaway, Sandusky, Shelby, Stark, Tuscarawas, Van Wert, Warren, Wayne, Wyandot.
+
+The following additional revisions were made to match the 2016 precinct boundaries:
+
+Adams: Split Liberty N/S, Peebles E/W
+Ashland: Split Ashland City 1-B/C, 2-B/C, 4-C/D, Clear Creek 1/2, Hanover/Loundonville 2, Vermilion 2/3
+Athens: Adjust Athens 4-4/4-5, Nelsonville 1/2/3/4
+Brown: Adjust Perry Twp South/Villages
+Butler: Adjust Hamilton 22/24, Oxford 6/11, Trenton 5/7, West Chester 28/39
+Champaign: Adjust Union N/S
+Clark: Align New Carlisle, Springfield precincts with county maps
+Clermont: Reverse unincorporation of Amelia and Newtonsville
+Clinton: Merge Wilmington 3-B/C
+Columbiana: Split E Liverpool 4-A/B, St Clair Glenmoor/SW
+Coshocton: Split Coshocton 3-B/C, 4-B/C
+Crawford: Split Holmes/Texas, Sandusky/Whetstone North; Move eastern Polk Twp from Galion 1B to western Polk Twp
+Cuyahoga: Adjust Olmsted Twp D/F/H; Realign Westlake wards
+Defiance: Merge N/S Richland; Split Tiffin A/B
+Delaware: Merge Berkshire B/D/E, Berlin B/F, Concord F/J, Columbus D/G, Delaware 3-F/H, 4-E/G, Genoa H/T, Liberty N into B/C, Orange D/T, G/U, Powell K into G/I, Westerville A/I; Adjust Berkshire A/C/B, Berlin A/C, Columbus A/D, B/D, C/E, Delaware 3-A/2-D, 2-D/Twp A, 3-C/3-E/Twp B, Genoa N/Q, Liberty A/Powell J, Liberty G/K, Orange B/E, H/O, Powell E/F
+Fairfield: Realign precincts in Columbus City, Lancaster Ward 1, Ward 2, Ward 6; Merge Pickerington K/O, Pickerington N into F/L; Adjust Bloom A/B, Lancaster 4-B/C, Pickerington J/K, Violet B/C, I/J
+Fulton: Split Amboy/Metamora, Fayette/Gorham, Lyons/Royalton, Swancreek West 1/2, Swanton 1/2, 3/4, York N/S
+Franklin: Merge Dub 1-I into Dub 1-A/F, Cols 05-B/D, 08-A/H, 08-B/G, 12-D/E, 14-D/G, 16-C/F, 30-A/E, 33-C/J, 33-F/I, 41-D/H/I, 42-A/E, 43-A/E, 44-E/H, 45-C/N, 45-H/M, 45-K/O, 46-E/L, 46-G/M, 50-D/E, 52-C/H, 52-F/G, 57-F/G, 58-A/K, 59-C/F, 64-C/G, 64-D/H, 68-A/D, 69-C/N, 73-G/L, 73-H/K, 73-J/M, 74-E/H, 75-D/H, 75-E/I, 78-C/I, 79-D/E, 82-F/N, 82-G/M, 82-I/O, 83-B/H, 83-C/J, 83-F/I, 84-D/H, 85-D/E, 86-F/I, 86-G/J, Grove City 1-E/G, 2-E/G, Groveport A/E, Hill 1-D/G, 2-C/F, 4-D/E, Jefferson D/I, E/J, F/H, New Albany F/G, Reyns 2-A/G, 4-B/G, Westerville 3-A/E, Worth 3-A/D, 3-B/C
+Gallia: Merge Addison Pct/Twp
+Greene: Adjust Bath 277/Fairborn 226/Xenia 351
+Hamilton: Merge Blue Ash 4-A/B, Norwood 1-A/C, Cincinnati 6-E into 6-A/B, 11-D into 11-A/B/C, 12-A/D, 12-C/E, 13-B/H; Adjust Blue Ash 1-B/2-A/3-B/4-A, Cincinnati 12-B/C, 23-A/D, 23-I/P, 25-F/K, Cleves A/Whitewater A, Colerain BB/F/H, Delhi A/B, Loveland D/Symmes C/K, Miami B/D/G, Whitewater A/C; Realign Cincinnati/Green B
+Hocking: Split Falls 1/4, 3/5, Falls 3/West Logan, Hide Away Hills/Marion 1, Laurelville/Perry 1
+Knox: Merge Brinkhaven/Union, Gambier A/C; Adjust Clinton A/Mount Vernon 1-B, Clinton B/Mount Vernon 2-A
+Lake: Merge Concord B/O, Mentor City 2G/2I, Painesville City 4A/4D, Painesville Twp L into A/K; Adjust Concord A/I, Painesville City 2-A/B, Painesville Twp C/E, Willoughby Hills CC/DD
+Logan: Split Second Ward A/C, B/D
+Lorain: Merge Avon Lake City 4-A/D, N. Ridgeville 3-A/F/H, N. Ridgeville 1-E into 1-B/D, 3-G into 3-C/D; Adjust Avon Lake City 2-B/C, 4-A/B/C, N. Ridgeville 3-A/B
+Lucas: Realign wards in Jerusalem, Maumee, Monclova, Oregon, Ottawa Hills, Spencer, Springfield, Sylvania City, Sylvania Twp, Washington
+Madison: Split Monroe/Pike, Paint/Midway-Range/S Solon-Stokes
+Medina: Merge Brunswick City 1-F into 1-C/D, York Twp C into A/B, Montville Twp H into A/B, Montville Twp I into A/C/E; Adjust Brunswick City 1-A/B, Wadsworth City 1-D/Sharon D, Wadsworth City 2-D/Twp C
+Pickaway: Merge Commercial Point East/West; Add Circleville 1-D; Align Circleville wards with city map
+Portage: Split Brady Lake Vlg/Franklin D
+Putnam: Merge Glandorf/Ottawa Twp West
+Richland: Split Mansfield Ward 6 Prec B/C, Worthington B/C; Adjust Ontario 3/4
+Stark: Split Alliance 3-A/C, Canton 2-D/F, 2-E/G, 4-D/E, Massillon 4-A/B, 5-B/D, 7-B/D, 7-H/I, Lake 10/12, Paris A/B, Plain 7/13, Plain 22/23, Sugarcreek 1/D; Merge Jackson 33 into 17/23/30, Lake B into Lake A/15, Lawrence 6 into Lawrence 1/3; Adjust Coventry D/G, Hudson 1-B/3-C, Jackson 6/22, N. Canton 2-A/B, Perry 4/16, Plain 8/29/30
+Summit: Adjust Coventry D/G, Fairlawn 2-A/4-A, Hudson 1-B/3-C, Springfield F/J; Realign Twinsburg wards
+Union: Merge Jerome 3/6, Marysville 1/2, Marysville 4 into 3/11, Marysville 15 into 4/9
+Warren: Split Springboro City 4-B/D, Deerfield W from Deerfield AA/X, Mason City U from Mason City N/T; Merge Clearcreek B/N, Hamilton A/U, D/T, Turtlecreek L into Turtlecreek A/F, Mason City Z into Mason City F/Deerfield E/Union A; Adjust Carlisle 2-A/3-A, South Lebanon A/B, C/D, Springboro 1-B/C, Turtlecreek F/K
+Wood: Replace Bloom, Milton, Montgomery, Perry, Portage precincts with 2019 VTDs
+Wyandot: Split Sycamore Twp/Village
+
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Independent)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREIDUN - Richard Duncan (Independent)
+
+G16USSRPOR - Rob Portman (Republican Party)
+G16USSDSTR - Ted Strickland (Democratic Party)
+G16USSGDEM - Joseph R. DeMare (Green Party)
+G16USSICON - Tom Connors (Independent)
+G16USSIRUP - Scott Rupert (Independent)
+
+
+Oklahoma
+--------
+Election results are from Oklahoma State Election Board (https://www.ok.gov/elections/Election_Info/Election_Results/index.html)
+Precinct shapefile from Oklahoma Data Warehouse (https://data.csa.ou.edu/)
+
+Countywide results were distributed for Oklahoma County and Tulsa County, these were divided among the constituent precincts based on the vote reported in each precinct.
+
+G16PRERTRU - Donald Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+
+G16USSRLAN - James Lankford (Republican Party)
+G16USSDWOR - Mike Workman (Democratic Party)
+G16USSLMUR - Robert T. Murphy (Libertarian Party)
+G16USSIBRA - Mark T. Beard (Independent)
+G16USSIBEA - Sean Braddy (Independent)
+
+
+Oregon
+------
+Election results from the Oregon Secretary of State's office via OpenElections (https://github.com/openelections/openelections-data-or/). Results from Polk, Tillamook, Wallowa, and Wasco counties were corrected with the respective county reports.
+
+Precinct shapefiles for the 2016 election were obtained from the following counties: Benton, Columbia, Coos, Crook, Curry, Deschutes, Douglas, Harney, Jackson, Josephine, Klamath, Lane, Linn, Malheur, Morrow, Multnomah, Polk, Sherman, Tillamook, Umatilla, Union, Wallowa, Wasco, Washington, Yamhill.
+
+Precinct shapefiles for the 2016 election were provided by the Oregon Secretary of State's office for the following counties: Clatsop, Hood River, Jefferson, Marion. The Marion County shapefile included numerous gaps that were assigned based on the Precinct Split Summary report from the county clerk's office. Precincts along the Salem/Kaiser border were revised with the corrected municipal boundaries from the Marion County 2019 precinct shapefile.
+
+The 2016 precinct shapefile for Clackamas County was provided by the Metro Regional Government Data Resource Center.
+
+Precinct boundaries for Grant County and Wheeler County are defined by school district boundaries. Precinct shapefiles were produced to match PDF maps provided by the respective counties using the 2016 Oregon Education Boundaries shapefile obtained from the Oregon Spatial Data Library.
+
+Precinct shapefiles for the following counties were produced based on PDF maps provided by the respective counties: Baker, Gilliam, Lake, Lincoln. Boundaries defined by the PLSS grid were produced with the Oregon Public Land Survey Quarter-Quarter Reference Grid shapefile obtained from the Oregon spatial Data Library. Municipal boundaries were produced from the Oregon Department of Transportion 2016 City Limits shapefile obtained from the Oregon Spatial Data Library. Street boundaries are produced from the U.S. Census Bureau's census block shapefiles.
+
+PDF maps obtained from Lake County are approximate precinct boundaries drawn on the PLSS grid for county precincts and on the street map for Lakeview city precincts. These boundaries were adjusted to match address range assignments in the Lake County Address Library Report which serves as the legal definition of the precincts according to the Lake County Clerk. Precinct divisions for roads that cross multiple rural precincts are generally defined by zip codes. Address ranges were further identified based on the Lake County tax lot parcel viewer.
+
+Rural precinct boundaries in the shapefiles provided by Coos County and Union County were revised to match the updated PLSS cadastral grid in the Oregon GIS Framework obtained from the Oregon Spatial Data Library. 
+
+Municipal precinct boundaries in the shapefiles provided by Tillamook County and Umatilla County were revised to reverse annexations that were not yet in effect for the November 2016 general election. 
+
+The boundaries of precincts 14, 37, 45, 49 in the Deschutes County shapefile were revised to match legislative district assignments.
+
+Precinct numbers in the Columbia County, Josephine County, and Wallowa County shapefiles were corrected to match the Oregon Secretary of State voter file.
+
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRERTRU - Donald Trump (Republican Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREOWRI - Write-in Votes
+
+G16USSDWYD - Ron Wyden (Democratic Party)
+G16USSRCAL - Mark Callahan (Republican Party)
+G16USSLLIN - Jim Lindsay (Libertarian Party)
+G16USSGNAV - Eric Navickas (Pacfic Green Party)
+G16USSWLEW - Shanti Lewallen (Working Families Party)
+G16USSIREY - Steven Cody Reynolds (Independent Party)
+G16USSOWRI - Write-in Votes
+
+G16GOVDBRO - Kate Brown (Democratic Party and Working Families Party (fusion candidate))
+G16GOVRPIE - Bud Pierce (Republican Party)
+G16GOVLFOS - James Foster (Libertarian Party)
+G16GOVCAUE - Aaron Donald Auer (Constitution Party)
+G16GOVITHO - Cliff Thomason (Independent Party)
+G16GOVOWRI - Write-in Votes
+
+G16ATGDROS - Ellen Rosenblum (Democratic Party and Working Families Party (fusion candidate))
+G16ATGRCRO - Daniel Zene Crowe (Republican Party)
+G16ATGLHED - Lars D. H. Hedbor (Libertarian Party)
+G16ATGOWRI - Write-in Votes
+
+G16SOSDAVA - Brad Avakian (Democratic Party, Working Families, and Progressive Party (fusion candidate))
+G16SOSRRIC - Dennis Richardson (Republican Party)
+G16SOSLDUR - Sharon L. Durbin (Libertarian Party)
+G16SOSGZUN - Alan Zundel (Pacific Green Party)
+G16SOSCMAR - Michael Marsh (Constitution Party)
+G16SOSIWEL - Paul Damian Wells (Independent Party)
+G16SOSOWRI - Write-in Votes
+
+G16TREDREA - Tobias Read (Democratic Party)
+G16TRERGUD - Jeff Gudman (Republican Party)
+G16TREPHEN - Chris Henry (Progressive Party and Pacific Green Party (fusion candidate))
+G16TREITEL - Chris Telfer (Independent Party)
+G16TREOWRI - Write-in Votes
+
+
+Pennsylvania
+------------
+Election results from the Pennsylvania Secretary of State's office via OpenElections (https://github.com/openelections/openelections-data-pa/). Precinct data was corrected with canvass reports for the following counties: Cumberland, Elk, Lancaster, Northampton, Susquehanna. The candidate totals for Northampton and Susquehanna differ from the county totals reported by the state and therefore the statewide totals differ from the official results accordingly.
+
+Allegheny County reported president-only votes countywide. These were distributed by candidate to precincts based on their share of the precinct-level reported vote.
+
+Precinct shapefiles primarily from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release. The shapefiles from Delaware County and the City of Pittsburgh are from the respective jurisdictions instead. Precinct numbers were corrected to match the voter file in the following locales: Allegheny (Elizabeth, Pittsburgh W12), Blair (Greenfield), Bradford (Athens), Greene (Nonongahela), Monroe (Smithfield), Montgomery (Hatfield), Northampton (Bethlehem Twp), Perry (Toboyne), Washington (New Eagle, Somerset), York (Fairview).
+
+Precinct boundaries throughout the state were edited to match voter assignments in the PA Secretary of State voter file from the 2016 election cycle. While some edits reflect official updates to wards or divisions the great majority involve voters incorrectly assigned to voting districts by the counties. As such the VEST shapefile endeavors to reflect the de facto precinct boundaries and these often differ from the official voting district boundaries, in some cases quite drastically. Wherever possible edits were made using census boundaries or alternatively using the parcel shapefiles from the respective counties. 
+
+In certain areas voter assignments appear so erratic that it is impractical to place all voters within their assigned precinct. These areas were edited so as to place as many voters as possible within their assigned precinct without displacing a greater number from their assigned precinct. In general, municipal boundaries were retained except where significant numbers of numbers were misassigned to the wrong municipality. In cases where the odd/even split was incorrectly reversed for precinct boundary streets the official boundary was retained. All such cases involved near equal number of voters swapped between voting districts.
+
+The following revisions were made to the base shapefiles to match the de facto 2016 precinct boundaries consistent with the voter file. Individual precincts are noted in cases of splits or merges. Due to the sheer number of edits boundary adjustments are noted at the borough/township level. There may be as many as two dozen individual precincts that were revised within a given municipality.
+
+Adams: Adjust Cumberland, Franklin
+Allegheny: Merge CD splits for S Fayette 3/5; Split Pittsburgh W5 11/17; Merge Pittsburgh W16 9/11/12, Align McCandless with municipal boundary; Adjust Avalon, Baldwin, Bethel Park, Braddock, Brentwood, Castle Shannon, Clairton, Collier, Coraopolis, Crescent, Dormont, Dravosburg, Duquesne, E Deer, E McKeesport, E Pittsburgh, Elizabeth, Emsworth, Forward, Glassport, Hampton, Harmar, Ingram, Jefferson Hills, Kennedy, Leet, Liberty, Marshall, McCandless, McKees Rocks, McKeesport, Monroeville, Moon, Mount Lebanon, Munhall, N Fayette, N Versailles, O'Hara, Oakdale, Penn Hills, Pine, Pittsburgh (all wards), Pleasant Hills, Reserve, Richland, Ross, Scott, Sewickley, Shaler, S Fayette, S Park, Stowe, Swissvale, Upper St. Clair, W Deer, W Homestead, W Mifflin, W View, Whitaker, Whitehall, Wilkins, Wilkinsburg
+Armstrong: Align Dayton, Elderton, Ford City, Kittanning, N Apollo with municipal boundaries; Adjust Ford City, Gilpin, Kiskiminetas, Kittanning, Manor, N Buffalo, Parks, Parker City, S Buffalo
+Beaver: Adjust Aliquippa, Ambridge, Baden, Beaver, Brighton, Center, Chippewa, Conway, Economy, Franklin, Hanover, Harmony, Hopewell, Midland, Monaca, N Sewickley
+Bedford: Adjust Bedford Boro, Bedford Twp
+Berks: Merge CD splits for District, Exeter 5; Split Laureldale 1A/B by CD; Adjust Cumru, Douglass, Oley, Maxatawny, Robeson, Sinking Spring, Spring, Union
+Blair: Merge Tunnelhill/Allegheny Twp 4; Align Altoona, Bellwood, Duncansville, Hollidaysburg, Newry, Roaring Spring, Tyrone, Williamsburg with municipal boundaries; Adjust Allegheny, Altoona, Antis, Frankstown, Freedom, Greenfield, Huston, Juniata, N Woodbury, Logan, Snyder, Tyrone Boro, Tyrone Twp
+Bucks: Align Sellersville, Tullytown with municipal boundaries; Adjust Bensalem, Bristol Boro, Bristol Twp, Buckingham, Doylestown Twp, Falls, Hilltown, Lower Makefield N, Lower Southampton E, Middletown, Milford, Morrissville, Newtown Twp, Northampton, Solebury Lower, Solebury, Springfield, Tinicum, Upper Makefield, Upper Southampton E, Warminster, Warrington, W Rockhill
+Butler: Merge CD splits for Cranberry E 2, 3, Cranberry W 1, 2, Jefferson 1, 2; Align Butler Twp, Valencia with municipal boundaries; Adjust Adams, Buffalo, Butler Boro, Butler Twp, Center, Cranberry E, Cranberry W, Jackson, Jefferson, Zelienople
+Cambria: Split Johnstown CT 1/2, W8 1/2, W11/OC, Reade N/S; Realign E Taylor 1/2 into 1-4; Align Daisytown, Sankertown, W Taylor, Wilmore with municipal boundaries; Adjust Cambria, Conemaugh, Croyle, Ebensburg, E Carroll, Geistown, Jackson, Johnstown W17, W20, Lower Yoder, Northern Cambria, Portage Boro, Portage Twp, Richland, Southmont, Stonycreek, Summerhill, Susquehanna, Upper Yoder, W Carroll, Westmont
+Cameron: Adjust Emporium, Shippen
+Clarion: Split Farmington Central into South/West; Merge Emlenton/Richland
+Carbon: Adjust Jim Thorpe, Kidder, Mahoning, New Mahoning, Summit Hill
+Centre: Merge CD splits for Halfmoon E Central/Proper; Merge Ferguson Northeast 1 A/B; Adjust Benner, College, Ferguson, Patton
+Chester: Merge CD/LD splits for Birmingham 2, Phoenixville M 1; Adjust Birmingham, E Bradford S, E Fallowfield, E Goshen, E Marlborough, Easttown, N Coventry, Spring City, Tredyffrin M, Uwchlan, W Bradford, W Caln, W Goshen N, W Goshen S, Westtown
+Clarion: Adjust Clarion, Highland, Farmington, Knox
+Clearfield: Adjust Bradford, Cooper, Decatur, Golden Rod, Lawrence Glen Richie, Morris, Plympton, Woodward
+Columbia: Merge Ashland/Conyngham; Adjust Orange, Scott West
+Crawford: Align Mead, Woodcock with municipal boundaries
+Cumberland: Merge CD splits for N Middleton 1, 3; Split Lower Allen 1/Annex; Align Carlisle, E Pennsboro, Hampton, Lemoyne, Lower Allen, Mechanisburg, Middlesex, Mount Holly Springs, N Middleton, Shiremanstown, Silver Spring, W Pennsboro, Wormsleysburg with municipal boundaries
+Dauphin: Split Highspire 1/2, Millersburg 1/2, Steelton 2/3, Susquehanna 1/3; Merge Swatara 10 into 6/8; Align Middletown 2-1/3-1 with municipal boundary; Adjust Derry, Harrisburg W1, W7, W8, W9, Hummelstown, Lower Paxton, Lykens, Middletown, Swatara
+Delaware: Adjust Chester, Concord, Darby Boro, Darby Twp, Haverford, Marple, Nether Providence, Newtown, Radnor, Ridley, Sharon Hill, Thornbury, Tinicum, Trainer, Upper Chichester, Upper Darby, Upper Providence
+Elk: Split N/S Horton; Adjust Johnsonburg, Ridgeway Boro, Ridgeway Twp, St. Marys
+Erie: Split Corry 3/4; Merge Mill Creek 23/25; Adjust Erie W1, W4, W5, W6, Greene, Lawrence Park, McKean, Millcreek, North East
+Fayette: Split Masontown 1/2, Washington 1/2; Align Dunbar with municipal boundary; Adjust Brownsville, Bullskin, Dunbar, Georges, German, Luzerne, N Union, Redstone
+Franklin: Align Mercersburg with municipal boundary; Adjust Antrim, Fannett, Greene, Guilford, Hamilton, Metal, Peters, Quincy, St. Thomas, Southampton, Washington
+Fulton: Align McConnellsburg with municipal boundary
+Greene: Align Carmichaels with municipal boundary; Adjust Cumberland, Dunkard, Franklin, Jefferson, Lipencott, Mather, Morgan Chart, Monongahela, Nemacolin
+Huntingdon: Adjust Huntingdon, Mount Union, Shirley
+Jefferson:  Align Reynoldsville with municipal boundary; Adjust Punxsutawney
+Lackawanna: Split Olyphant Ward 3-2 A/B; Adjust Archbald, Blakely, Carbondale, Clarks Summit, Dickson City, Dunmore, Fell, Jermyn, Jessup, Mayfield, Moosic, Old Forge, Olyphant, Scranton W1, W2, W3, W6, W7, W10, W12, W13, W14, W15, W16, W19, W20, W23, S Abington, Taylor, Throop
+Lancaster: Split Lancaster 7-8 CV/LS; Adjust Brecknock, Columbia, E Hempfield, E Lampeter, E Petersburg, Elizabethtown, Ephrata, Lancaster W6, W8, Lititz, Manheim, Manor, Millersville, Mt Joy Boro, Mt Joy Twp, New Holland, Penn, Providence, Rapho, Warwick, W Cocalico, W Donegal, W Hempfield
+Lawrence: Adjust Neshannock
+Lebanon: Adjust Jackson, Lickdale, S Lebanon, Union Green Pt
+Lehigh: Adjust Lower Macungie, Salisbury
+Luzerne: Merge CD splits for Hazle 1; Align Avoca, Pittston with municipal boundaries; Adjust Butler, Dallas Boro, Dallas Twp, Exeter, Foster, Freeland, Hanover, Hazle, Jenkins, Kingston Boro, Kingston Twp, Larksville, Lehman, Nanticoke, Newport, Plains, Salem, Smoyersville, W Wyoming, Wilkes-Barre
+Lycoming: Align Williamsport with municipal boundary; Adjust Jersey Shore
+McKean: Adjust Bradford City, Bradford Twp, Foster, Keating, Otto
+Mercer: Adjust Delaware, Fredonia, Greenville, Hempfield, Hermitage, Sharon, Sharpsville, S Pymatuning, W Salem
+Monroe: Merge CD splits for Smithfield 1; Align E Stroudsburg with municipal boundary; Adjust E Stroudsburg, Smithfield
+Montgomery: Merge CD splits for Franconia 2, Horsham 2-1, 4-2, Lower Merion 12-2, 12-3; Add CD splits for Hatfield 5-2, Horsham 2-2, Lower Merion 2-2, Perkiomen 1, Plymouth 2-3; Adjust Abington, Lower Merion, Pottstown, Springfield, Upper Moreland, Upper Merion, Upper Providence
+Northampton: Add CD split for Bethlehem W17; Reverse 2017 Bethlehem Twp redistricting; Align Glendon, Walnutport with municipal boundaries; Adjust Bangor, Bethlehem W2, W3, W4, W7, W9, W14, W15, Bethlehem Twp, Bushkill, Easton, Forks, Hanover, Hellertown, Lehigh, Lower Mt Bethel, Lower Saucon, Moore, Nazareth, Palmer, Plainfield, Upper Mt Bethel, Washington, Williams
+Northumberland: Merge CD splits for Upper Mahanoy; Split Riverside A/B; Align Northumberland with municipal boundary; Adjust Coal, Milton, Mount Carmel W, Natalie-Strong, Northumberland, Point, Ralpho, Shamokin, Sunbury, Upper Augusta
+Philadelphia: Merge 5-30 into 5-10/16/26/27; 5-31 into 5-25; 5-32 into 5-17; 5-33/34 into 5-21; 18-18 into 18-1/9; Adjust 27-7/8, 43-1/24, 51-3/8, 51-4/20, 57-10/27, 62-8/12, 65-4/7
+Pike: Adjust Matamoras
+Potter: Adjust Galeton, Sharon
+Schuylkill: Adjust Coaldale, N Manheim, Norwegian, Porter, Pottsville
+Somerset: Align New Centerville with municipal boundary; Adjust Conemaugh, Jefferson, Middlecreek, Paint, Somerset Boro
+Susquehanna: Adjust Montrose; Lanesboro, Susquehanna Depot
+Tioga: Add CD splits for Shippen; Adjust Delmar, Wellsboro
+Union: Adjust Buffalo, White Deer
+Venango: Split Cornplanter 1/2; Split Sugarcreek 1/4; Adjust Franklin, Sugarcreek, Cornplanter, Oil City
+Warren: Adjust Conewango
+Washington: Split Canton 1/3; Align Allenport, Beallsville, Burgettstown, Canonsburg, Carroll, Charleroi, Claysville, Elco, Finleyville, Houston, Long Branch, McDonald, Monongahela, Speers, Twilight with municipal boundaries; Adjust Amwell, Bentleyville, California, Canonsburg, Canton, Cecil, Centerville, Chartiers, Donegal, Donora, Fallowfield, Hanover, Independence, Mount Pleasant, N Franklin, N Strabane, Peters, Robinson, Smith, Somerset, S Franklin, S Strabane, Union Washington, W Brownsville
+Wayne: Adjust Honesdale
+Westmoreland: Split Ligonier 1/2; Merge CD splits for Unity Pleasant Unity; Align Greensburg with municipal boundary; Adjust Allegheny, Arnold, Bell, Derry, E Huntingdon, Fairfield, Greensburg, Hempfield, Jeannette, Latrobe, Ligonier, Lower Burrell, Monessen, Mount Pleasant, Murraysville, New Kensington, N Belle Vernon, N Huntingdon, Penn, Rostraver, St. Clair, Scottdale, Sewickley, S Greensburg, S Huntingdon, Trafford, Upper Burrell, Unity, Vandergrift, Washington, Youngwood
+Wyoming: Split Nicholson Borough; Adjust Falls
+York: Merge CD splits for York Twp 5-3; Align E Prospect, Goldsboro, Jefferson, Manchester, Monaghan, Wellsville, York with municipal boundaries; Adjust Chanceford, Codorus, Conewago, Dover, Fairview, Hanover, Jackson, Lower Windsor, New Freedom, Newberry, N Codorus, Penn, Red Lion, Shrewsbury, Spring Garden, Springbettsbury, W Manchester, Windsor Boro, Windsor Twp, Wrightsville, York Twp, York W5, W6, W15
+
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PRELJOH - Gary E. Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PRECCAS - Darrell L. Castle (Conservative Party)
+
+G16USSDMCG - Katie McGinty (Democratic Party)
+G16USSRTOO - Patrick J. Toomey (Republican Party)
+G16USSLCLI - Edward T. Clifford III (Libertarian Party)
+
+G16ATGDSHA - Joshua D. Shapiro (Democratic Party)
+G16ATGRRAF - John C. Rafferty Jr. (Republican Party)
+
+G16AUDDDEP - Eugene A. DePasquale (Democratic Party)
+G16AUDRBRO - John A. Brown (Republican Party)
+G16AUDLMIN - Roy A. Minet (Libertarian Party)
+G16AUDGSWE - John J. Sweeney (Green Party)
+
+G16TREDTOR - Joseph M. Torsella (Democratic Party)
+G16TRERVOI - Otto W. Voit III (Republican Party)
+G16TRELBAB - James Babb (Libertarian Party)
+G16TREGCOM - Kristin Combs (Green Party)
+
+
+Rhode Island
+------------
+Election results from Rhode Island Board of Elections (https://www.ri.gov/election/results/2016/general_election/data/)
+Precinct shapefile from the U.S. Census Bureau's 2020 Redistricting Data Program final release.
+
+Several precincts in Providence were aligned with the city ward shapefile. Newport 2 and Newport 9 were merged to reverse a split that took place after the 2016 election.
+
+Limited ballots were reported by township. Federal ballots were reported by congressional district. These were distributed by candidate to precincts based on their share of the precinct-level vote for the given reporting unit.
+
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRERTRU - Donald Trump (Republican Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREAROC - "Rocky" Roque De La Fuente (American Delta Party)
+G16PREOWRI - Write-in Votes
+
+
+South Carolina
+--------------
+Election results from South Carolina State Election Commission (http://www.enr-scvotes.org/SC/64658/184701/en/select-county.html)
+Precinct shapefiles were generously supplied by Victor Frontroth of the Mapping Section of the South Carolina Revenue and Fiscal Affairs Office
+
+Absentee, provisional, emergency, and failsafe results were reported countywide. These were distributed to precincts based on the precinct's share of the county vote for each candidate.
+
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRERTRU - Donald Trump (Republican Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREIMCM - Evan McMullin (Independent)
+G16PRECCAS - Darrell L. Castle (Constitution Party)
+G16PREASKE - Peter Skewes (American Party)
+
+G16USSDDIX - Thomas Dixon (Democratic Party, Working Families Party, and Green Party (fusion candidate))
+G16USSRSCO - Tim Scott (Republican Party)
+G16USSLBLE - Bill Bledsoe (Libertarian Party and Constitution Party (fusion candidate))
+G16USSASCA - Rebel Michael Scarborough (American Party)
+G16USSOWRI - Write-in Votes
+
+
+South Dakota
+------------
+Election Results from South Dakota Secretary of State (https://sdsos.gov/elections-voting/election-resources/election-history/2016_Election_History.aspx)
+Precinct shapefiles primarily from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release, with the exceptions of Potter County and Yankton County from the 2010 Census VTD release.
+
+Brookings, Brown, Hughes, Hyde, Potter, Sully, and Yankton use countywide vote centers rather than polling locations by precinct. South Dakota counties with vote centers do not record votes by precinct. For these counties, votes were apportioned to precincts based on their share of the countywide number of ballots cast by voters registered with the party of the respective candidates. When this method was tested with counties that report votes by precinct the great majority of precincts were within 4% of the actual candidate vote shares. However, a scattering of precincts deviated by as much as 12% from the actual vote shares. These precincts tend to be in either city centers or outlying areas, which reflects the fact that registered Democrats in rural precincts are more likely to vote for Republican candidates than registered Democrats in urban precincts.
+
+Lawrence County reported absentee votes countywide. These were distributed by candidate to precincts based on their share of the precinct-level reported vote.
+
+The certified precinct report from Minnehaha County adds up to about 18 more votes per office than the countywide totals recorded in the official state canvass. This was evidently an oversight in which the preliminary vote count from Minnehaha County was not updated before the final state canvass.
+
+The following modifications were made in the shapefiles to recreate the 2016 precinct boundaries.
+
+Beadle: Replace 5 commissioner districts with 10 precincts
+Bennett: Merge Martin City wards
+Brown: Adjust 12/16, 21/22; revise Aberdeen city limits to 2016 boundary
+Brule: Merge divisions of 3
+Butte: Merge 8/13/14
+Charles Mix: Merge divisions of 3, 6, 11, 12
+Clark: Replace 5 commissioner districts with 13 precincts
+Codington: 3 county VTDs reorganized into 13 precincts by township list; merge Watertown wards A3/A4, B1/B4/E5, B3/C1, C2/D4, E2/E4; reverse B3 annexation
+Corson: Merge McIntosh/South McIntosh, Lincoln/Oak Creek
+Davison: Merge 4/5, 6/7, 12/13, 17/18
+Day: Merge divisions of 2, 5, 6; Revise Webster city boundaries
+Dewey: Merge 3/4, 10/11, 12/13
+Fall River: Merge Edgemont, Oelrichs
+Faulk: Split 6/7
+Grant: Split 41/45/53, 43/47, 44/49/52/54; Add Milbank wards
+Hand: Merge 1/3, 5/8, 9/10, divisions of 11, 12
+Hyde: Replace 5 commissioner districts with 3 precincts
+Jackson: Merge divisions of 3, 4
+Jones: Merge divisions of 1, 3
+Kingsbury: Replace 5 commissioner districts with 6 precincts
+Lawrence: Merge Whitewood, Rural #1
+Lincoln: Merge Beresford, Canton 1-3, Canton 4-5, Lennox, Tea
+Mellette: Revise Central/East/West boundaries, White River city limits
+McPherson: Merge Eureka wards with 4/5/6, Leola ward with 1/2
+Minnehaha: Merge 1-4/1-5, 4-1/5-15, 4-7/4-8, 5-1/5-2; reverse renumbering and changes to corporate boundary since 2016
+Pennington: Merge CA/SC, HR/LS/RK; Split RH/HC
+Perkins: Merge divisions of 3
+Potter: Adjust Gettysburg ward boundaries; Merge divisions of 26, 27
+Roberts: Merge 6/7, 12/14
+Sully: Revise all precinct boundaries to align with county PDF
+Union: Merge divisions of 2, 6
+Yankton: Revise Yankton city precincts to align with city limits
+Ziebach: Merge Redelm/N&S Dupree
+
+G16PRERTRU - Donald Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PRECCAS - Darrell L. Castle (Constitution Party)
+
+G16USSRTHU - John R. Thune (Republican Party)
+G16USSDWIL - Jay Williams (Democratic Party)
+
+G16HALRNOE - Kristi Noem (Republican Party)
+G16HALDHAW - Paula Hawks (Democratic Party)
+
+G16PUCRNEL - Chris Nelson (Republican Party)
+G16PUCDRED - Henry Red Cloud (Democratic Party)
+
+
+Tennessee
+---------
+Election results from Tennessee Secretary of State (https://sos.tn.gov/products/elections/election-results)
+Precinct shapefile from Tennessee Comptroller's Office of Local Government
+
+Hamilton County updated with new shapefile from the county's GIS department.
+
+In some counties, early voting write-in votes are only reported countywide. These votes are apportioned to precincts in the same shares that the Election Day vote was split among precincts within a county.
+
+G16PRERTru - Donald J. Trump (Republican Party)
+G16PREDCli - Hillary Clinton (Democratic Party)
+G16PREIDeL - Roque De La Fuente (Independent)
+G16PRELJoh - Gary Johnson (Libertarian Party)
+G16PRESKen - Alyson Kennedy (Independent)
+G16PREISmi - Mike Smith (Independent)
+G16PREGSte - Jill Stein (Green Party)
+G16PREOth - Write-in Votes
+
+
+Texas
+-----
+Election results and precinct shapefile from Texas Legislative Council (ftp://ftpgis1.tlc.state.tx.us/)
+
+G16PREDCli - Hillary Clinton (Democratic Party)
+G16PRERTru - Donald J. Trump (Republican Party)
+G16PRELJoh - Gary Johnson (Libertarian Party)
+G16PREGSte - Jill Stein (Green Party)
+G16PREOth - Write-in Votes
+
+G16RRCDYar - Grady Yarbrough (Democratic Party)
+G16RRCRChr - Wayne Christian (Republican Party)
+G16RRCLMil - Mark Miller (Libertarian Party)
+G16RRCGSal - Martina Salinas (Green Party)
+
+
+Utah
+----
+Election results from OpenElections.
+Shapefile from the Utah Geographic Reference Center (https://gis.utah.gov/data/political/voter-precincts/).
+
+The shapefile from the UGRC is of subprecincts, breaking down precincts in cases of district splits. In some cases, results are reported at the subprecinct level, in most cases, they weren't, so merging was done where necessary.
+
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Rodham Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREISTE - Jill Stein (Unaffiliated)
+G16PREIMCM - Evan McMullen (Unaffiliated)
+G16PREOOTH - Other candidates on ballot
+
+G16USSRLEE - Mike Lee (Republican Party)
+G16USSDSNO - Misty K. Snow (Democratic Party)
+G16USSAFON - Stoney Fonua (Independent American Party)
+G16USSIBAR - Bill Barron (Unaffiliated)
+
+G16GOVRHER - Gary R. Herbert (Republican Party)
+G16GOVDWEI - Mike Weinholtz (Democratic Party)
+G16GOVLKAM - Brian E. Kamerath (Libertarian Party)
+G16GOVASCH - Superdell Schanze (Independent American Party)
+
+G16ATGRREY - Sean D. Reyes (Republican Party)
+G16ATGDHAR - Jon V. Harper (Democratic Party)
+G16ATGLMCC - W. Andrew McCullogh (Libertarian Party)
+G16ATGAISB - Michael W. IsBell (Independent American Party)
+
+G16AUDRDOU - John Rougall (Republican Party)
+G16AUDDMIT - Mike Mitchell (Democratic Party)
+G16AUDAGRE - Jared Green (Independent American Party)
+
+G16TRERDAM - David Damschen (Republican Party)
+G16TREDHAN - Neil A. Hansen (Democratic Party)
+G16TRECPRO - Richard Proctor (Constitution Party)
+
+
+Vermont
+-------
+Election results from the Vermont Secretary of State (https://electionarchive.vermont.gov/)
+Precinct shapefile from the U.S. Census Bureau's 2020 Redistricting Data Program
+
+Vermont has four unorganized towns whose residents cast votes in neighboring towns. These were distributed back based on voting age population in the 2016 American Community Survey. (Averill-Canaan, Buels Gore-Huntington, Ferdinand-Brighton, Glastenbury-Shaftsbury.)
+
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRERTRU - Donald Trump (Republican Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREIFUE - Rocky De La Fuente (Independent)
+G16PREOLAR - Gloria La Riva (Liberty Union Party)
+G16PREOSAN - Bernie Sanders (Write-in)
+G16PREOWRI - Other Write-in Votes
+
+G16USSDLEA - Patrick Leahy (Democratic Party)
+G16USSRMIL - Scott Milne (Republican Party)
+G16USSOERI - Cris Ericson (Unisted States Marijuana Party)
+G16USSITRU - Jerry Trudell (Independent)
+G16USSODIA - Pete Diamondstone (Liberty Union Party)
+G16USSOWRI - Write-in Votes
+
+G16HALOWEL - Peter Welch (Democratic Party and Republican Party (fusion candidate))
+G16HALOCLA - Erica Clawson (Liberty Union Party)
+G16HALOWRI - Write-in Votes
+
+G16GOVDMIN - Sue Minter (Democratic Party)
+G16GOVRSCO - Phil Scott (Republican Party)
+G16GOVOLEE - Bill "Spaceman" Lee (Liberty Union Party)
+G16GOVOWRI - Write-in Votes
+
+G16LTGDZUC - David Zuckerman (Progressive Party and Democratic Party (fusion candidate))
+G16LTGRBRO - Randy Brock (Republican Party)
+G16LTGOWAR - Boot Wardinski (Liberty Union Party)
+G16LTGOWRI - Write-in Votes
+
+G16TREOPEA - Beth Pearce (Democratic Party and Republican Party (fusion candidate))
+G16TREPSCH - Don Schramm (Progressive Party)
+G16TREONGO - Murray Ngoima (Liberty Union Party)
+G16TREOWRI - Write-in Votes
+
+G16SOSOCON - Jim Condos (Democratic Party and Republican Party (fusion candidate))
+G16SOSOHER - Mary Alice "Mal" Herbert (Liberty Union Party)
+G16SOSOWRI - Write-in Votes
+
+G16AUDDHOF - Doug Hoffer (Democratic Party and Progressive Party (fusion candidate))
+G16AUDRFEL - Dan Feliciano (Republican Party)
+G16AUDOBRO - Mariana Brown (Liberty Union Party)
+G16AUDOWRI - Write-in Votes
+
+G16ATGDDON - T.J. Donovan (Democratic Party)
+G16ATGRBUC - Deborah "Deb" Bucknam (Republican Party)
+G16ATGOJAC - Rosemarie Jackowski (Liberty Union Party)
+G16ATGOWRI - Write-in Votes
+
+
+Virginia
+--------
+Election results from Virginia Department of Elections (https://historical.elections.virginia.gov/)
+
+Absentee ballots and provisional votes were reported at the county or city level throughout the state. These were distributed by candidate to precincts based on their share of the precinct-level reported vote.
+
+Precinct shapefile primarily from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release. Virginia election reports often include precinct splits that are obsolete or unused in practice. These have been omitted. In cases where voters were incorrectly assigned to the wrong district the de facto precinct split has been included for that election.
+
+The following modifications were made to recreate the 2016 precinct boundaries.
+
+Albemarle: Merge Cale/Biscuit Run, Free Bridge/Pantops; Add Belfield from 2010 VTD shapefile; Adjust Brownsville/Crozet to match 2010 VTD shapefile
+Alexandria City: Merge Potomac Yard into Cora Kelly Center, Mt Vernon Recreation Center, George Washington Middle School based on 2017 precinct change map
+Arlington: Merge Lyon Park/Garfield Park, Virginia Highlands/Met Park; Adjust Fillmore/Arlington View boundary based on city ordinance; Adjust Gunston/Oakridge to match county GIS shapefile
+Bedford: Merge New London Academy/Forest Fire Station #2 to reverse 2018 split
+Bristol City: Adjust Ward 2/Ward 4 to match description in municipal code
+Carroll: Split Oakland A/Oakland D to match county GIS shapefile
+Charles City County: Adjust District 1/District 2 boundary to match county code
+Covington City: Realign Ward 1, Ward 2, Ward 3 to match PDF map and municipal code
+Culpeper: Adjust East Fairfax/Brandy Station boundary to match county GIS shapefile
+Emporia City: Adjust Precincts 1/7, Precincts 2/5 to match municipal code
+Essex: Adjust South Precinct/Central Precinct boundary to match county PDF
+Fairfax: Merge Merrifield/Gallows East, Belvoir/Army; Split Newgate North/South, Belvoir/Lorton Center; Adjust Rotonda/Tysons, Virginia Run/Bull Run to match county GIS shapefile
+Fredericksburg City: Adjust District 1/3 boundaries to match municipal code
+Galax City: Adjust North/South precinct boundary to match municipal GIS shapefile
+Goochland: Adjust Hadensville/Fife boundary to match description in county code
+Halifax: Adjust Meadville/Republican Grove to match 2011 redistricting PDF map
+Hampton City: Add US House District 2 segment of Tyler Precinct to match county PDF
+Hanover: Adjust Blunts/Beaverdam boundary to match county PDF
+Henrico: Split Glenside/Johnson to match 2010 VTD shapefile; Add Hilliard, Summit Court from 2010 VTD shapefile
+Henry: Adjust 10 precinct boundaries to align VTDs with county GIS shapefile
+Loudoun: Merge Legacy/Stone Hill, Creighton's Corner/Brambleton Middle, Pinebrook/John Champe to match county GIS shapefile
+Madison: Adjust all precincts to align VTDs with county GIS shapefile
+Manassas City: Reverse 2017 realignment based on 2010 VTD shapefile and prior municipal code
+Newport News City: Adjust Sanford/Riverview boundary to match county GIS shapefile
+Prince William: Adjust Ben Lomond/Mullen, Freedom/Leesylvania to match county GIS shapefile
+Pulaski: Adjust Dublin/New River to match precinct assignments on county GIS parcel viewer
+Rappahanock: Adjust Sperryville/Washington boundary to match county PDF
+Richmond City: Merge Precinct 214 with Precincts 206/208 to reverse 2017 creation described in municipal ordinance
+Richmond County: Adjust Precincts 2-1/3-1 boundary to match description in county ordinance
+Roanoke City: Add Virginia Heights-Norwich; Adjust Forest Park/Eureka Park based on county GIS shapefile and description in municipal ordinance
+Roanoke County: Adjust 12 precinct boundaries to match county GIS shapefile
+Rockingham: Adjust Bridgewater Precinct to match municipal boundary
+Russell: Adjust Daugherty/West Lebanon boundary to match county PDF
+Tazewell: Adjust nearly all precinct boundaries to align VTDs with county GIS shapefile
+Virginia Beach City: Merge Salem Woods/Rosemont Forest, Sigma/Sandbridge to match 2015 PDF; Adjust Centerville/Colonial to match county GIS shapefile
+Williamsburg City: Revise Matoaka/Stryker to match municipal PDF map and municipal code
+Wise: Adjust Big Stone Gap/East Stone Gap boundary to match county GIS shapefile
+Wythe: Adjust West Wytheville/East Wytheville boundary to match county GIS shapefile
+
+Results are divided across four files. Because precincts can be split across legislative districts, the legislative races are reported with their own geography that divides these split precincts, resulting in shapes that are assigned to exactly one district.
+
+*va_2016 file*
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRERTRU - Donald Trump (Republican Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREIMCM - Evan McMullin (Independent)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREOWRI - Write-in Votes
+
+*va_2016_ushouse file*
+CON_DIST - U.S. House district number that the precinct/precinct part belongs to
+G16HORDEM - Democratic Party candidate, U.S. House
+G16HORREP - Republican Party candidate, U.S. House
+G16HORIND - Independent candidate, U.S. House
+G16HORWRI - Write-in votes, U.S. House
+
+*va_2016_statehouse_special file* - covering districts 77 and 93, held on November 8th
+HOD_DIST - House of Delegates district number that the precinct/precinct part belongs to
+S16HODDEM - Democratic Party candidate, House of Delegates
+S16HODREP - Republican Party candidate, House of Delegates
+S16HODWRI - Write-in votes, House of Delegates
+
+*va_2016_statesenate_special file* - covering districts 1 and 5, held on November 8th
+SOV_DIST - Senate of Virginia district number that the precinct/precinct part belongs to
+S16SOVDEM - Democratic Party candidate, Senate of Virginia
+S16SOVREP - Republican Party candidate, Senate of Virginia
+S16SOVIND - Independent candidate, Senate of Virginia
+S16SOVWRI - Write-in votes, Senate of Virginia
+
+
+Washington
+----------
+Election results and precinct shapefile from Washington Secretary of State (https://www.sos.wa.gov/elections/research/election-results-and-voters-pamphlets.aspx)
+
+A few dozen votes were reported countywide in King County and Pierce County, these were distributed by candidate to precincts based on their share of the precinct-level reported vote.
+
+Results are divided across two files, one for statewide results, one for U.S. House results.
+
+*wa_2016 file*
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRERTRU - Donald Trump (Republican Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PRECCAS - Darrell L. Castle (Constitution Party)
+G16PREOKEN - Alyson Kennedy (Socialist Workers Party)
+G16PREOLAR - Gloria Estela La Riva (Socialism & Liberation Party)
+
+G16USSDMUR - Patty Murray (Democratic Party)
+G16USSRVAN - Chris Vance (Republican Party)
+
+G16GOVDINS - Jay Inslee (Democratic Party)
+G16GOVRBRY - Bill Bryant (Republican Party)
+
+G16LTGDHAB - Cyrus Habib (Democratic Party)
+G16LTGRMCC - Marty McClendon (Republican Party)
+
+G16SOSDPOD - Tina Podlodowski (Democratic Party)
+G16SOSRWYM - Kim Wyman (Republican Party)
+
+G16TRERWAI - Michael Waite (Republican Party)
+G16TRERDAV - Duane Davidson (Republican Party)
+
+G16AUDDMCC - Pat McCarthy (Democratic Party)
+G16AUDRMIL - Mark Miloscia (Republican Party)
+
+G16ATGDFER - Bob Ferguson (Democratic Party)
+G16ATGRTRU - Joshua B. Trumbull (Libertarian Party)
+
+G16LNDDFRA - Hilary Franz (Democratic Party)
+G16LNDRMCL - Steve McLaughlin (Republican Party)
+
+G16INSDKRE - Mike Kreidler (Democratic Party)
+G16INSRSCH - Richard Schrock (Republican Party)
+
+*wa_2016_ushouse file*
+G16H01DDEL - Suzan DelBene (Democratic Party)
+G16H01RSUT - Robert J. Sutherland (Republican Party)
+
+G16H02DLAR - Rick Larsen (Democratic Party)
+G16H02RHEN - Marc Hennemann (Republican Party)
+
+G16H03DMOE - Jim Moeller (Democratic Party)
+G16H03RBEU - Jaime Herrera Beutler (Republican Party)
+
+G16H04RDID - Clint Didier (Republican Party)
+G16H04RNEW - Dan Newhouse (Republican Party)
+
+G16H05DPAK - Joe Pakootas (Democratic Party)
+G16H05RROD - Cathy McMorris Rodgers (Republican Party)
+
+G16H06DKIL - Derek Kilmer (Democratic Party)
+G16H06RBLO - Todd A. Bloom (Republican Party)
+
+G16H07DJAY - Pramila Jayapal (Democratic Party)
+G16H07DWAL - Brady Piñero Walkinshaw (Democratic Party)
+
+G16H08DVEN - Tony Ventrella (Democratic Party)
+G16H08RREI - Dave Reichert (Republican Party)
+
+G16H09DSMI - Adam Smith (Democratic Party)
+G16H09RBAS - Doug Basler (Republican Party)
+
+G16H10DHEC - Denny Heck (Democratic Party)
+G16H10RPOS - Jim Postma (Republican Party)
+
+
+Wisconsin
+---------
+Election results and precinct shapefile from Wisconsin State Legislature Open Data Portal (https://data-ltsb.opendata.arcgis.com/).
+
+The shapefile used for the 2016 election results was the 2017 wards shapefile. The 2017 wards shapefile featured multiple changes and corrections to the ward boundaries what were already in effect for the November 2016 general election but were not in the January 2016 wards shapefile.
+
+Several thousand votes were reported for the town of Menasha, which had almost entirely been incorporated into the village of Fox Crossing. The ward numbers in the Menasha results matched exactly the wards in Fox Crossing that didn't report any results, so the Menasha results were applied to Fox Crossing.
+
+The following wards had been added due to annexations subsequent to the 2016 general election. They were merged back into the 2016 wards along with any associated election results.
+
+Brown: Wrightstown 5
+Clark: Abbotsford 7
+Dane: DeForest 18, Sun Prairie 22
+Eau Claire: Eau Claire 68
+Fond du Lac: Fond du Lac 28
+Green Lake: Green Lake 4
+Kenosha: Kenosha 94
+La Crosse: Holmen 12
+Manitowoc: Manitowoc 29
+Marathon: Wausau 48
+Monroe: Tomah 21
+Outagamie: Combined Locks 6, Kaukauna 13
+Washington: Slinger 9
+Waukesha: Sussex 10
+Waupaca: Clintonville 9, 10
+Winnebago: Menasha 39-42, Neenah 26
+
+These additional changes were made to reflect the 2016 ward-by-ward results.
+
+Grant: Split Platteville 8/9
+Jefferson: Renumber Watertown 3 to Watertown 19
+La Crosse: Split Holland 1 from Holmen 2
+Winnebago: Relabel Fox Crossing 8-13 as Menasha 8-13
+
+Note that the election results for Holland 1-6 and Holmen 1-11 in La Crosse County were reapportioned accordingly using the same whole population methodology as the WI Legislative Technology Services Bureau.
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRECCAS - Darrell L. Castle (Constitution Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREOTH - Write-in Votes
+
+G16USSRJOH - Ron Johnson (Republican Party)
+G16USSDFEI - Russ Feingold (Democratic Party)
+G16USSLAND - Phillip N. Anderson (Libertarian Party)
+G16USSOTH - Write-in Votes
+
+
+Wyoming
+-------
+Election results from Wyoming Secretary of State (https://soswy.state.wy.us/Elections/ElectionResults.aspx)
+Precinct shapefile primarily from the U.S. Census Bureau's 2020 Redistricting Data Program final release. The Fremont County shapefile was provided by the Fremont County Assessor.
+ 
+The following modifications were made to recreate the 2016 precinct boundaries.
+
+Albany: Consolidate 8 county VTDs into 5 precincts, 18 city VTDs into 8 precincts
+Campbell: Split 05-01/24-01; Merge 01-27 into 05-01/19-01/24-01; Reverse 26-01 annexation
+Carbon: Remove district splits for 1-2, 5-1, 6-1, 7-1, 11-2, 12-1, 13-1
+Goshen: Align VTDs with legislative districts and 2012 redistricting map
+Laramie: Adjust 03-05, 03-06, 03-07, 03-10 to reverse Cheyenne annexations
+Platte: Merge Y-O Ranch into Wheatland Rural
+Sheridan: Remove district splits for 01-01, 02-01, 02-03, 03-03, 11-03
+Sweetwater: Align wards and precincts countywide with 2012 legislative redistricting
+Uinta: Remove 02-01 district split; Split 01-03/01-04; Merge 04-01/04-03
+Weston: Adjust 5-2/5-3 boundary to match 2012 realignment
+
+G16PRERTRU - Donald Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PRECCAS - Darrell L. Castle (Constitution Party)
+G16PREIFUE - Rocky De La Fuente (Independent)
+G16PREGSTE - Jill Stein (Green Party)
+G16PREOWRI - Write-in Votes
+
+G16HALRCHE - Liz Cheney (Republican Party)
+G16HALDGRE - Ryan Greene (Democratic Party)
+G16HALLSTR - Lawrence Gerard Struempf (Libertarian Party)
+G16HALCCUM - Daniel Clyde Cummings (Constitution Party)
+G16HALOWRI - Write-in Votes
