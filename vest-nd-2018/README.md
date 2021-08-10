@@ -2,7 +2,7 @@
 
 Our final election results validation report for this dataset is available [here](https://redistrictingdatahub.org/dataset/vest-2018-north-dakota-precinct-and-election-results/).
 
-We do not have the raw data sources available on this Github due to file constraints, but we are happy to share them if needed. 
+We do not have the raw data sources available on this Github due to file constraints, but we are happy to share them if needed.
 
 Please reach out to info@redistrictingdatahub.org to reach our support team if you have any questions, or if you would like to request a full validation report.
 
