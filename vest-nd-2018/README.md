@@ -21,7 +21,7 @@ Please reach out to info@redistrictingdatahub.org to reach our support team if y
 - File: ND Precinct-Level Election Results, 2018
   - Date accessed: 8/3/2021
   - Link: https://results.sos.nd.gov/ResultsSW.aspx?text=All&type=SW&map=CTY&eid=303
-  - Note: Selected 'EXPORT' and downloaded both 'Precinct' and 'County' for each election
+  - Note: Selected 'EXPORT' and downloaded 'Precinct' data for each election
 - File: ND Voter Precinct Shapefile, 2018
   - Date accessed: 8/3/2021
   - Link: https://www.census.gov/geo/partnerships/pvs/partnership18v1/st38_nd.html
