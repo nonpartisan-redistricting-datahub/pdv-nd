@@ -24,7 +24,7 @@ Please reach out to info@redistrictingdatahub.org to reach our support team if y
   - Note: Selected 'EXPORT' and downloaded both 'Precinct' and 'County' for each election
 - File: ND Voter Precinct Shapefile, 2018
   - Date accessed: 8/3/2021
-  - Link: https://www.census.gov/geo/partnerships/pvs/partnership20v1/st38_nd.html
+  - Link: https://www.census.gov/geo/partnerships/pvs/partnership18v1/st38_nd.html
   - Note: Downloaded up to 5 at a time
 
 ## File processing:
