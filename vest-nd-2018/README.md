@@ -22,7 +22,7 @@ Please reach out to info@redistrictingdatahub.org to reach our support team if y
   - Date accessed: 8/3/2021
   - Link: https://results.sos.nd.gov/ResultsSW.aspx?text=All&type=SW&map=CTY&eid=303
   - Note: Selected 'EXPORT' and downloaded 'Precinct' data for each election
-- File: 2020 ND Partnership Shapefile
+- File: 2020 Redistricting Data Program Final Release (ND Partnership Shapefile)
   - Date accessed: 8/3/2021
   - Link: https://www.census.gov/geo/partnerships/pvs/partnership19v2/st38_nd.html
   - Note: Downloaded up to 5 at a time

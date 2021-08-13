@@ -21,8 +21,8 @@ Please reach out to info@redistrictingdatahub.org to reach our support team if y
 - File: ND Precinct-Level Election Results, 2016
   - Date accessed: 7/28/2021
   - Link: https://results.sos.nd.gov/ResultsSW.aspx?text=All&type=SW&map=CTY&eid=292
-  - Note: Selected 'EXPORT' and downloaded both 'Precinct' data for each election
-- File: 2020 ND Partnership Shapefile
+  - Note: Selected 'EXPORT' and downloaded 'Precinct' data for each election
+- File: 2020 Redistricting Data Program Final Release (ND Partnership Shapefile)
   - Date accessed: 8/3/2021
   - Link: https://www.census.gov/geo/partnerships/pvs/partnership19v2/st38_nd.html
   - Note: Downloaded up to 5 at a time
