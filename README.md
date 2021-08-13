@@ -10,7 +10,7 @@ Please reach out to info@redistrictingdatahub.org to reach our support team if y
 
 RDH's partner data validation for VEST's 2020 ND file. VEST's raw file is available [here](https://dataverse.harvard.edu/file.xhtml?fileId=4931789&version=15.0).
 
-RDH's election result validation report is available [here](https://redistrictingdatahub.org/dataset/vest-2020-north-dakota-precinct-and-election-results/). To request a full validation report, please email info@redistrictingdatahub.org.
+RDH's election result validation report is available [here](https://redistrictingdatahub.org/dataset/vest-2020-north-dakota-precinct-boundaries-and-election-results/). To request a full validation report, please email info@redistrictingdatahub.org.
 
 ## vest-nd-2018
 
