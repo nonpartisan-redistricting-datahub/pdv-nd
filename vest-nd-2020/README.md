@@ -10,17 +10,17 @@ Please reach out to info@redistrictingdatahub.org to reach our support team if y
 
 ### Accessible files:
 
-- File: ND VEST 2018 File
-   - Date accessed: 8/3/2021
-   - Link: https://dataverse.harvard.edu/file.xhtml?fileId=4931782&version=43.0
-   - File: `nd_2018.zip`
-- File: VEST Documentation File, 2018
-   - Date accessed: 8/3/2021
-   - Link: https://dataverse.harvard.edu/file.xhtml?fileId=4938247&version=43.0
+- File: ND VEST 2020 File
+   - Date accessed: 8/12/2021
+   - Link: https://dataverse.harvard.edu/file.xhtml?fileId=4931789&version=15.0
+   - File: `nd_2020.zip`
+- File: VEST Documentation File, 2020
+   - Date accessed: 8/12/2021
+   - Link: https://dataverse.harvard.edu/file.xhtml?fileId=4938251&version=15.0
    - File: `documentation.txt`
-- File: ND Precinct-Level Election Results, 2018
-  - Date accessed: 8/3/2021
-  - Link: https://results.sos.nd.gov/ResultsSW.aspx?text=All&type=SW&map=CTY&eid=303
+- File: ND Precinct-Level Election Results, 2020
+  - Date accessed: 8/13/2021
+  - Link: https://results.sos.nd.gov/ResultsSW.aspx?text=All&type=SW&map=CTY
   - Note: Selected 'EXPORT' and downloaded 'Precinct' data for each election
 - File: 2020 ND Partnership Shapefile
   - Date accessed: 8/3/2021
@@ -29,4 +29,4 @@ Please reach out to info@redistrictingdatahub.org to reach our support team if y
 
 ## File processing:
 
-`vest-nd-2018-validation.ipynb` is the script that is the basis of the validation report
+`vest-nd-2020-validation.ipynb` is the script that is the basis of the validation report

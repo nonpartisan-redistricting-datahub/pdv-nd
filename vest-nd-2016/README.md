@@ -12,19 +12,19 @@ Please reach out to info@redistrictingdatahub.org to reach our support team if y
 
 - File: ND VEST 2016 File
    - Date accessed: 7/28/2021
-   - Link: https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/NH5S2I/JM0M6V&version=61.0
+   - Link: https://dataverse.harvard.edu/file.xhtml?fileId=4931776&version=65.0
    - File: `nd_2016.zip`
 - File: VEST Documentation File, 2016
    - Date accessed: 7/28/2021
-   - Link: https://dataverse.harvard.edu/file.xhtml?fileId=4863153&version=61.0
+   - Link: https://dataverse.harvard.edu/file.xhtml?fileId=4938232&version=65.0
    - File: `documentation.txt`
 - File: ND Precinct-Level Election Results, 2016
   - Date accessed: 7/28/2021
   - Link: https://results.sos.nd.gov/ResultsSW.aspx?text=All&type=SW&map=CTY&eid=292
-  - Note: Selected 'EXPORT' and downloaded both 'Precinct' and 'County' for each election
-- File: ND Voter Precinct Shapefile, 2016
+  - Note: Selected 'EXPORT' and downloaded both 'Precinct' data for each election
+- File: 2020 ND Partnership Shapefile
   - Date accessed: 8/3/2021
-  - Link: https://www.census.gov/geo/partnerships/pvs/partnership20v1/st38_nd.html
+  - Link: https://www.census.gov/geo/partnerships/pvs/partnership19v2/st38_nd.html
   - Note: Downloaded up to 5 at a time
 
 ## File processing:
